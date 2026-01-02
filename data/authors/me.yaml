@@ -2,106 +2,143 @@ schema: "hugoblox/author/v1"
 slug: "me"
 is_owner: true
 name:
-  display: "Qiyang Hong Lab"
-  given: "Alex"
-  family: "Johnson"
-  alternate: ""
+  display: "洪奇阳 (Qiyang Hong)"
+  given: "Qiyang"
+  family: "Hong"
+  alternate: "洪奇阳"
   pronunciation: ""
-  pronouns: "he/him"
-postnominals:
-  - "PhD"
-  - "MIEEE"
+  pronouns: ""
+role: "PhD Candidate in Biomedical Engineering (Medical AI)"
 status:
-  icon: "☕️"
-role: "Senior AI Research Scientist"
-bio: "Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-
-  has been published in top conferences like NeurIPS and ICML, with over
-
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-
-  while ensuring ethical development.\n"
+  icon: ""
+bio: "PhD candidate at the Institute of Basic Medical Sciences, Peking Union
+  Medical College & Tsinghua University School of Medicine (Beijing, China).
+  Research focuses on foundation models, LLMs, multimodal and temporal modeling
+  for clinical AI, deep phenotyping, and model interpretability.\n"
 affiliations:
-  - name: "Meta AI"
-    url: "https://ai.meta.com/"
+  - name: "Institute of Basic Medical Sciences, Peking Union Medical College & Tsinghua University School of Medicine"
+    url: ""
 links:
   - icon: "at-symbol"
-    url: "mailto:alex.johnson@example.com"
-    label: "E-mail Me"
-  - icon: "brands/x"
-    url: "https://x.com/example"
+    url: "mailto:qiyanghong2020@gmail.com"
+    label: "E-mail"
   - icon: "brands/github"
-    url: "https://github.com/example"
-  - icon: "brands/linkedin"
-    url: "https://www.linkedin.com/in/example/"
+    url: "https://github.com/qiyanghong2020"
+    label: "GitHub"
   - icon: "academicons/google-scholar"
-    url: "https://scholar.google.com/citations?user=example"
-  - icon: "academicons/orcid"
-    url: "https://orcid.org/0000-0002-1825-0097"
+    url: "https://scholar.google.com.hk/citations?user=1PCtyx8AAAAJ&hl=zh-CN"
+    label: "Google Scholar"
 interests:
+  - "Foundation Models"
   - "Large Language Models"
-  - "Computer Vision"
-  - "Reinforcement Learning"
-  - "AI Ethics"
+  - "Multimodal Learning"
+  - "Temporal Modeling"
+  - "Clinical AI"
+  - "Model Interpretability"
 education:
-  - degree: "PhD Computer Science"
-    institution: "Stanford University"
-    start: "2015-09-01"
-    end: "2019-06-30"
-    summary: "Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.\n"
-    button:
-      text: "Download dissertation"
-      url: "/resume.pdf"
-      icon: "hero/arrow-down-tray"
-  - degree: "MS Computer Science"
-    institution: "Carnegie Mellon University"
-    start: "2013-09-01"
-    end: "2015-05-31"
-  - degree: "BS Computer Science"
-    institution: "MIT"
-    start: "2009-09-01"
-    end: "2013-05-31"
+  - degree: "PhD in Biomedical Engineering (Medical AI)"
+    institution: "Peking Union Medical College & Tsinghua University School of Medicine"
+    start: "2023-09-01"
+    summary: "Advisor: Prof. Erping Long (Researcher; National Overseas Young Talent). Core expertise: foundation models, LLMs, multimodal and temporal modeling; clinical AI; model interpretability; HPC (A6000/H100).\n"
+  - degree: "MSc in Biochemistry and Molecular Biology"
+    institution: "Xiamen University"
+    start: "2014-09-01"
+    end: "2017-07-01"
+    summary: "Advisor: Prof. Ning-Shao Xia (Academician, Chinese Academy of Engineering). Specialization: transcriptomics, viral immunology, structural biology, computational molecular analysis.\n"
+  - degree: "BEng in Bioengineering"
+    institution: "Jimei University"
+    start: "2010-09-01"
+    end: "2014-07-01"
 experience:
-  - role: "Senior AI Research Scientist"
-    org: "Meta AI"
-    start: "2020-01-01"
-    summary: "Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.\n"
-    button:
-      text: "View portfolio"
-      url: "/"
-      icon: "hero/arrow-down-tray"
-  - role: "AI Research Intern"
-    org: "OpenAI"
-    start: "2019-06-01"
-    end: "2019-12-31"
-    summary: "Worked on GPT-3 scaling. Co-authored paper on prompt engineering.\n"
+  - role: "Molecular Group Leader, Prenatal Diagnosis Center"
+    org: "Affiliated Hospital of Putian University"
+    start: "2020-08-01"
+    end: "2023-07-01"
+    summary: "Led molecular diagnostics workflows and genetic testing projects.\n"
+  - role: "Senior Bioinformatics Engineer (Part-time), Data & Information Department"
+    org: "Jinfeng Biotechnology Co., Ltd."
+    start: "2020-11-01"
+    end: "2022-01-01"
+    summary: "Supported data platform development and bioinformatics workflows.\n"
+  - role: "Bioinformatics Supervisor, Bioinformatics Department"
+    org: "Berry Genomics (Beijing Berry and Kang Biotechnology Co., Ltd.)"
+    start: "2017-07-01"
+    end: "2020-08-01"
+    summary: "Managed bioinformatics pipeline development and clinical interpretation workflows.\n"
 skills:
-  - name: "Technical Skills"
+  - name: "Artificial Intelligence & Machine Learning"
     items:
-      - label: "Python"
+      - label: "Neural Networks"
         level: 5
-      - label: "Machine Learning"
+      - label: "Transformers / LLMs"
         level: 5
-      - label: "Cloud Computing"
+      - label: "Foundation Models"
+        level: 5
+      - label: "Multimodal Learning"
         level: 4
-  - name: "Research & Communication"
+      - label: "Temporal Modeling"
+        level: 4
+      - label: "Model Interpretability"
+        level: 4
+  - name: "Model Training & High-Performance Computing"
     items:
-      - label: "Academic Writing"
+      - label: "PyTorch"
         level: 5
-      - label: "Conference Presentations"
+      - label: "CUDA"
         level: 4
-      - label: "Grant Proposals"
+      - label: "Distributed Training"
         level: 4
-languages:
-  - name: "English"
-    level: 5
-    label: "Native"
-  - name: "Spanish"
-    level: 4
-    label: "Fluent"
+      - label: "GPU Cluster Management (Linux HPC)"
+        level: 4
+      - label: "Large-scale Data Preprocessing"
+        level: 4
+      - label: "Performance Profiling"
+        level: 4
+  - name: "Bioinformatics & Genomic Analysis"
+    items:
+      - label: "WES/WGS Pipelines"
+        level: 5
+      - label: "RNA-seq"
+        level: 5
+      - label: "SNP/Indel/CNV Detection"
+        level: 5
+      - label: "Variant Annotation & ACMG"
+        level: 5
+      - label: "Immunogenomics / Neoantigen Prediction"
+        level: 4
+      - label: "Clinical Diagnostics Workflows"
+        level: 4
+  - name: "Programming & Data Engineering"
+    items:
+      - label: "Python / NumPy / pandas"
+        level: 5
+      - label: "Workflow Automation"
+        level: 4
+      - label: "Reproducible Pipelines"
+        level: 4
+      - label: "Django Web Applications"
+        level: 4
+  - name: "Data Visualization & Network Analysis"
+    items:
+      - label: "matplotlib / seaborn"
+        level: 4
+      - label: "igraph / networkx"
+        level: 4
+      - label: "Interactive Visualization"
+        level: 4
 awards:
-  - title: "Best Paper Award"
-    awarder: "NeurIPS"
-    date: "2022-12-01"
-    summary: "Awarded for groundbreaking work on efficient training of large models."
+  - title: "Reviewer"
+    awarder: "Nature Medicine"
+    date: "2025-12-01"
+    summary: "Reviewed: \"Streamlined Newborn Metabolic Screening via Copper Nanocube-Enhanced Raman-AI System\"."
+    icon: "hero/trophy"
+  - title: "Reviewer"
+    awarder: "Nature Biomedical Engineering"
+    date: "2023-08-01"
+    summary: "Reviewed: \"End-To-End Clinical Trial Matching with Large Language Models\"."
+    icon: "hero/trophy"
+  - title: "Reviewer"
+    awarder: "Frontiers in Aging Neuroscience"
+    date: "2024-01-01"
+    summary: "Ad-hoc reviewer."
     icon: "hero/trophy"

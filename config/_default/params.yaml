@@ -1,10 +1,10 @@
 hugoblox:
   schema: "2.0"
   identity:
-    name: Qiyang Hong Lab
+    name: 洪奇阳 | Qiyang Hong
     type: person
-    tagline: Biomedical AI Researcher | Precision Medicine
-    description: Qiyang Hong is a Biomedical AI researcher focusing on digital health, clinical reasoning models, and large-scale population data to improve healthcare outcomes.
+    tagline: Medical AI | Foundation Models | Clinical Genomics
+    description: PhD candidate at the Institute of Basic Medical Sciences, Peking Union Medical College & Tsinghua University School of Medicine, focusing on foundation models, LLMs, multimodal and temporal modeling for clinical AI and precision medicine.
   theme:
     mode: light
     pack: default

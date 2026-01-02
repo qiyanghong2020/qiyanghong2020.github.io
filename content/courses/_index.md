@@ -2,27 +2,14 @@
 title: Courses
 summary: My courses
 type: landing
-
+build:
+  list: never
+  render: never
+  publishResources: false
 cascade:
-  - target:
-      path: '{/courses/*/**}'
-    type: docs
-    params:
-      show_breadcrumb: true
+  build:
+    list: never
+    render: never
+    publishResources: false
 
-sections:
-  - block: collection
-    id: courses
-    content:
-      title: Courses
-      filters:
-        tag: Course
-        kinds:
-          - section
-    design:
-      view: article-grid
-      show_read_time: false
-      show_date: false
-      show_read_more: false
-      columns: 1
 ---

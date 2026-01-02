@@ -2,12 +2,14 @@
 title: Recent & Upcoming Talks
 cms_exclude: true
 #url: talk
+build:
+  list: never
+  render: never
+  publishResources: false
+cascade:
+  build:
+    list: never
+    render: never
+    publishResources: false
 
-# View
-view: card
-
-# Optional cover image (relative to `assets/media/` folder).
-image:
-  caption: ''
-  filename: ''
 ---
