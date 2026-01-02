@@ -2,10 +2,10 @@ schema: "hugoblox/author/v1"
 slug: "me"
 is_owner: true
 name:
-  display: "洪奇阳 (Qiyang Hong)"
+  display: "Qiyang Hong"
   given: "Qiyang"
   family: "Hong"
-  alternate: "洪奇阳"
+  alternate: ""
   pronunciation: ""
   pronouns: ""
 role: "PhD Candidate in Biomedical Engineering (Medical AI)"

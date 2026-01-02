@@ -1,7 +1,7 @@
 hugoblox:
   schema: "2.0"
   identity:
-    name: 洪奇阳 | Qiyang Hong
+    name: Qiyang Hong
     type: person
     tagline: Medical AI | Foundation Models | Clinical Genomics
     description: PhD candidate at the Institute of Basic Medical Sciences, Peking Union Medical College & Tsinghua University School of Medicine, focusing on foundation models, LLMs, multimodal and temporal modeling for clinical AI and precision medicine.
@@ -30,7 +30,7 @@ hugoblox:
     style: minimal
     language_switcher: true
   copyright:
-    notice: © {year} {name}
+    notice: (c) {year} {name}
   content:
     math:
       enable: false
