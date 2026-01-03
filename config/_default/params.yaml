@@ -3,11 +3,11 @@ hugoblox:
   identity:
     name: Qiyang Hong
     type: person
-    tagline: Medical AI | Foundation Models | Clinical Genomics
-    description: PhD candidate at the Institute of Basic Medical Sciences, Peking Union Medical College & Tsinghua University School of Medicine, focusing on foundation models, LLMs, multimodal and temporal modeling for clinical AI and precision medicine.
+    tagline: Biomedical AI Researcher | Precision Medicine
+    description: Qiyang Hong is a Biomedical AI researcher focusing on digital health, clinical reasoning models, and large-scale population data to improve healthcare outcomes.
   theme:
     mode: light
-    pack: default
+    pack: marine
     colors:
       primary: ""
       secondary: ""
@@ -18,7 +18,7 @@ hugoblox:
   layout:
     radius: md
     spacing: comfortable
-    avatar_shape: circle
+    avatar_shape: square
   header:
     enable: true
     style: navbar
@@ -30,7 +30,7 @@ hugoblox:
     style: minimal
     language_switcher: true
   copyright:
-    notice: (c) {year} {name}
+    notice: © {year} {name}
   content:
     math:
       enable: false

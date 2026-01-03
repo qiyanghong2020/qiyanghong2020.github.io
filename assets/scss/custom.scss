@@ -1,0 +1,6 @@
+.blox-markdown .max-w-prose,
+.blox-markdown .prose,
+#papers .max-w-prose,
+#papers .max-w-3xl {
+  max-width: min(92vw, 78rem);
+}
