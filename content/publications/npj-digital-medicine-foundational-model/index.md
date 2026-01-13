@@ -4,9 +4,13 @@ authors:
   - me
   - "Erping Long"
   - "et al."
+author_notes:
+  - "First author"
+  - "Corresponding author"
+  - ""
 date: "2025-01-01"
 publication_types: ["article-journal"]
-publication: "*npj Digital Medicine* (Revision 1)"
-summary: "In revision."
+publication: "*npj Digital Medicine* (revision returned)"
+summary: "Revision returned."
 featured: true
 ---

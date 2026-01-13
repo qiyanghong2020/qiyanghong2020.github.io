@@ -22,8 +22,15 @@ sections:
     content:
       title: Skills
       username: me
+  - block: markdown
+    content:
+      title: Certifications & Licenses
+      text: |-
+        - Health Professional Qualification (Clinical Laboratory / Medical Testing), National Health Authority of China (2012).
+        - Bioinformatics Engineer Certification, ICT Support / ICTTT (Jan 2015).
+        - Clinical PCR Laboratory Technician Certification, Fujian Provincial Clinical Laboratory Center (Sept 2020).
   - block: resume-awards
     content:
-      title: Peer Review
+      title: Professional Activities
       username: me
 ---

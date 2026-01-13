@@ -38,16 +38,17 @@ sections:
       title: 'Research & Projects'
       subtitle: ''
       text: |-
-        PhD candidate in Medical AI at the Institute of Basic Medical Sciences, Peking Union Medical College & Tsinghua University School of Medicine. I work on foundation models, LLMs, multimodal and temporal modeling for clinical AI, deep phenotyping, and precision medicine.
+        PhD candidate in Medical AI at the Institute of Basic Medical Sciences, Peking Union Medical College & Tsinghua University School of Medicine. I work on foundation models, LLMs, multimodal and temporal modeling for clinical AI, deep phenotyping, and model interpretability.
 
         Selected projects:
         - Temporal foundation models for COPD progression (National Science and Technology Major Project, Youth Scientist Program, 2025-2028).
-        - Biomedical foundation model on UK Biobank (>500,000 participants) for disease prediction, multimorbidity analysis, and patient stratification.
-        - Automated clinical WES pipeline from FASTQ to SNP/Indel/CNV detection, annotation, ACMG classification, and reporting.
-        - Neoantigen prediction and immunogenomics pipeline integrating WES/RNA-seq with NetMHC/MHCflurry.
+        - Biomedical foundation model on UK Biobank (>500,000 participants) for disease prediction, multimorbidity analysis, and patient stratification across 289 conditions.
+        - Automated clinical WES analysis pipeline from FASTQ to SNP/Indel/CNV detection, annotation, ACMG classification, and reporting.
+        - Neoantigen prediction and immunogenomics pipeline integrating WES and RNA-seq with NetMHC/MHCflurry.
         - WES clinical interpretation and visualization platform (Django) for variants, coverage, CNVs, and Sanger traces.
-        - Consumer genomics analysis framework and inherited disease/metabolic panel pipelines (thalassemia, SMA, mtDNA).
-        - Custom WES probe design optimization and high-throughput transcriptomics analysis with KEGG/GO enrichment.
+        - Consumer genomics analysis framework plus inherited disease and metabolic panel pipelines (thalassemia, SMA, mitochondrial disorders, mtDNA).
+        - Custom WES probe design optimization for pathogenic ClinVar regions.
+        - High-throughput transcriptomics analysis with differential expression and KEGG/GO enrichment.
     design:
       columns: '1'
   - block: collection

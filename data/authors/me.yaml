@@ -28,18 +28,23 @@ links:
   - icon: "academicons/google-scholar"
     url: "https://scholar.google.com.hk/citations?user=1PCtyx8AAAAJ&hl=zh-CN"
     label: "Google Scholar"
+  - icon: "link"
+    url: "https://qiyanghong2020.github.io/"
+    label: "Personal Site"
 interests:
   - "Foundation Models"
   - "Large Language Models"
   - "Multimodal Learning"
   - "Temporal Modeling"
+  - "Representation Learning"
+  - "Deep Phenotyping"
   - "Clinical AI"
   - "Model Interpretability"
 education:
   - degree: "PhD in Biomedical Engineering (Medical AI)"
     institution: "Peking Union Medical College & Tsinghua University School of Medicine"
     start: "2023-09-01"
-    summary: "Advisor: Prof. Erping Long (Researcher; National Overseas Young Talent). Core expertise: foundation models, LLMs, multimodal and temporal modeling; clinical AI; model interpretability; HPC (A6000/H100).\n"
+    summary: "Advisor: Prof. Erping Long (Researcher; National Overseas Young Talent). Core expertise: foundation models, LLMs, multimodal and temporal modeling; deep phenotyping, clinical AI; model interpretability; high-performance computing (4xA6000, 2xH100).\n"
   - degree: "MSc in Biochemistry and Molecular Biology"
     institution: "Xiamen University"
     start: "2014-09-01"
@@ -54,17 +59,17 @@ experience:
     org: "Affiliated Hospital of Putian University"
     start: "2020-08-01"
     end: "2023-07-01"
-    summary: "Led molecular diagnostics workflows and genetic testing projects.\n"
+    summary: "Led molecular diagnostics workflows for prenatal diagnosis, including genetic testing pipelines, reporting, and quality control.\n"
   - role: "Senior Bioinformatics Engineer (Part-time), Data & Information Department"
     org: "Jinfeng Biotechnology Co., Ltd."
     start: "2020-11-01"
     end: "2022-01-01"
-    summary: "Supported data platform development and bioinformatics workflows.\n"
+    summary: "Supported data platform development and bioinformatics workflows for genomic products.\n"
   - role: "Bioinformatics Supervisor, Bioinformatics Department"
     org: "Berry Genomics (Beijing Berry and Kang Biotechnology Co., Ltd.)"
     start: "2017-07-01"
     end: "2020-08-01"
-    summary: "Managed bioinformatics pipeline development and clinical interpretation workflows.\n"
+    summary: "Managed pipeline development, clinical interpretation, and quality control for genomic diagnostics.\n"
 skills:
   - name: "Artificial Intelligence & Machine Learning"
     items:
@@ -78,6 +83,8 @@ skills:
         level: 4
       - label: "Temporal Modeling"
         level: 4
+      - label: "Representation Learning"
+        level: 4
       - label: "Model Interpretability"
         level: 4
   - name: "Model Training & High-Performance Computing"
@@ -88,7 +95,9 @@ skills:
         level: 4
       - label: "Distributed Training"
         level: 4
-      - label: "GPU Cluster Management (Linux HPC)"
+      - label: "GPU Cluster Management (Linux HPC, A6000/H100)"
+        level: 4
+      - label: "Job Scheduling / System Optimization"
         level: 4
       - label: "Large-scale Data Preprocessing"
         level: 4
@@ -102,15 +111,15 @@ skills:
         level: 5
       - label: "SNP/Indel/CNV Detection"
         level: 5
-      - label: "Variant Annotation & ACMG"
+      - label: "Variant Annotation & ACMG Classification"
         level: 5
       - label: "Immunogenomics / Neoantigen Prediction"
         level: 4
-      - label: "Clinical Diagnostics Workflows"
+      - label: "Clinical Diagnostics Workflow Development"
         level: 4
   - name: "Programming & Data Engineering"
     items:
-      - label: "Python / NumPy / pandas"
+      - label: "Python / NumPy / pandas / scikit-learn"
         level: 5
       - label: "Workflow Automation"
         level: 4
@@ -124,18 +133,18 @@ skills:
         level: 4
       - label: "igraph / networkx"
         level: 4
-      - label: "Interactive Visualization"
+      - label: "Interactive Visualization (Clinical/Genomic)"
         level: 4
 awards:
   - title: "Reviewer"
     awarder: "Nature Medicine"
     date: "2025-12-01"
-    summary: "Reviewed: \"Streamlined Newborn Metabolic Screening via Copper Nanocube-Enhanced Raman-AI System\"."
+    summary: "Ad-hoc reviewer."
     icon: "hero/trophy"
   - title: "Reviewer"
     awarder: "Nature Biomedical Engineering"
     date: "2023-08-01"
-    summary: "Reviewed: \"End-To-End Clinical Trial Matching with Large Language Models\"."
+    summary: "Ad-hoc reviewer."
     icon: "hero/trophy"
   - title: "Reviewer"
     awarder: "Frontiers in Aging Neuroscience"
