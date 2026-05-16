@@ -11,6 +11,7 @@ design:
 
 sections:
   - block: resume-biography-3
+    id: bio
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
@@ -63,6 +64,7 @@ sections:
       view: citation
       columns: 1
   - block: markdown
+    id: research
     content:
       title: 'Research & Projects'
       subtitle: ''
@@ -78,6 +80,29 @@ sections:
         - Consumer genomics analysis framework plus inherited disease and metabolic panel pipelines (thalassemia, SMA, mitochondrial disorders, mtDNA).
         - Custom WES probe design optimization for pathogenic ClinVar regions.
         - High-throughput transcriptomics analysis with differential expression and KEGG/GO enrichment.
+    design:
+      columns: '1'
+  - block: resume-experience
+    id: experience
+    content:
+      username: me
+    design:
+      # Hugo date format
+      date_format: 'January 2006'
+      # Education or Experience section first?
+      is_education_first: false
+  - block: resume-skills
+    content:
+      title: Skills
+      username: me
+  - block: markdown
+    id: certifications
+    content:
+      title: Certifications & Licenses
+      text: |-
+        - Health Professional Qualification (Clinical Laboratory / Medical Testing), National Health Authority of China (2012).
+        - Clinical PCR Laboratory Technician Certification, Fujian Provincial Clinical Laboratory Center (Sept 2020).
+        - Bioinformatics Engineer Certification, ICT Support / ICTTT (Jan 2015).
     design:
       columns: '1'
   - block: resume-awards

@@ -2,7 +2,9 @@
 .blox-markdown .prose,
 #papers .max-w-prose,
 #papers .max-w-3xl,
-.blox-resume-awards .max-w-prose {
+.blox-resume-awards .max-w-prose,
+.blox-resume-experience .max-w-prose,
+.blox-resume-skills .max-w-prose {
   max-width: min(92vw, 78rem);
 }
 
@@ -360,7 +362,9 @@
 .blox-markdown .text-3xl.font-bold,
 #papers .text-3xl.font-bold,
 .blox-collection .text-3xl.font-bold,
-.blox-resume-awards .text-3xl.font-bold {
+.blox-resume-awards .text-3xl.font-bold,
+.blox-resume-experience .text-3xl.font-bold,
+.blox-resume-skills .text-3xl.font-bold {
   font-family: var(--ra-font) !important;
   font-size: var(--ra-fs-heading) !important;
   font-weight: 700 !important;
@@ -371,13 +375,17 @@
 /* Centred section title with an accent rule beneath it. */
 .blox-markdown .text-3xl.font-bold,
 #papers .text-3xl.font-bold,
-.blox-resume-awards .text-3xl.font-bold {
+.blox-resume-awards .text-3xl.font-bold,
+.blox-resume-skills .text-3xl.font-bold,
+.blox-resume-experience .text-3xl.font-bold {
   position: relative;
   padding-bottom: 0.9rem;
 }
 .blox-markdown .text-3xl.font-bold::after,
 #papers .text-3xl.font-bold::after,
-.blox-resume-awards .text-3xl.font-bold::after {
+.blox-resume-awards .text-3xl.font-bold::after,
+.blox-resume-skills .text-3xl.font-bold::after,
+.blox-resume-experience .text-3xl.font-bold::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -531,18 +539,74 @@
   color: var(--ra-accent) !important;
 }
 
+/* ---- 9c. Experience/Education timeline + Skills ---------------- */
+/* Timeline rail + nodes -> hairline + calm accent. */
+.blox-resume-experience ol.relative {
+  border-inline-start-color: var(--ra-rule) !important;
+}
+.blox-resume-experience ol.relative > li > span.absolute {
+  background: var(--ra-accent-tint) !important;
+  --tw-ring-color: var(--ra-page-bg) !important;
+  color: var(--ra-accent) !important;
+}
+.blox-resume-experience ol.relative > li > span.absolute svg {
+  color: var(--ra-accent) !important;
+}
+/* Role / degree title -> same scale as the other card titles. */
+.blox-resume-experience ol.relative > li > h3 {
+  font-family: var(--ra-font) !important;
+  font-size: var(--ra-fs-cardtitle) !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+  color: var(--ra-ink) !important;
+}
+/* Org + dates meta line. */
+.blox-resume-experience ol.relative > li .text-sm {
+  color: var(--ra-ink-muted) !important;
+  letter-spacing: 0.01em;
+}
+.blox-resume-experience ol.relative > li time {
+  font-variant-numeric: tabular-nums;
+}
+.blox-resume-experience ol.relative > li .prose {
+  color: var(--ra-ink-soft) !important;
+  font-size: var(--ra-fs-body) !important;
+  line-height: 1.7;
+}
+/* Skills: group name + bars in the unified scale / accent. */
+.blox-resume-skills .text-xl.font-bold {
+  font-family: var(--ra-font) !important;
+  font-size: var(--ra-fs-cardtitle) !important;
+  font-weight: 600 !important;
+  color: var(--ra-ink) !important;
+}
+.blox-resume-skills .skills-name,
+.blox-resume-skills .skills-name * {
+  color: var(--ra-ink-soft) !important;
+  font-size: var(--ra-fs-body) !important;
+}
+.blox-resume-skills .skills-wrapper {
+  background: var(--ra-rule) !important;
+  border-color: var(--ra-hairline) !important;
+}
+.blox-resume-skills .skills-percent {
+  background-color: var(--ra-accent) !important;
+}
+.blox-resume-skills .skills-icon {
+  color: var(--ra-accent) !important;
+}
+
 /* ---- 10. Section rhythm + quiet dividers ------------------------ */
+/* Every content section shares one vertical rhythm and a top hairline,
+   so dividers stay consistent no matter how many sections are added.
+   The bio block is excluded so the page doesn't open with a rule. */
 section.blox-markdown,
 section.blox-collection,
 section.blox-resume-awards,
-section#section-collection {
+section.blox-resume-experience,
+section.blox-resume-skills {
   padding-top: clamp(2.25rem, 5vw, 3.75rem);
   padding-bottom: clamp(2.25rem, 5vw, 3.75rem);
-}
-section.blox-markdown + section.blox-collection,
-section.blox-collection + section.blox-collection,
-section.blox-markdown + section.blox-resume-awards,
-section.blox-collection + section.blox-resume-awards {
   border-top: 1px solid var(--ra-rule);
 }
 
