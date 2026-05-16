@@ -1,0 +1,87 @@
+.blox-markdown .max-w-prose,
+.blox-markdown .prose,
+#papers .max-w-prose,
+#papers .max-w-3xl {
+  max-width: min(92vw, 78rem);
+}
+
+.li-cite-author .author-me,
+.article-metadata .author-me {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+.li-cite-author .author-me a,
+.article-metadata .author-me a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+.author-note-symbol {
+  margin-left: 0.03rem;
+  font-size: 0.72em;
+  font-weight: 800;
+  line-height: 0;
+  letter-spacing: 0;
+}
+
+.author-note-first {
+  color: #0f766e;
+}
+
+.author-note-corresponding {
+  color: #6d28d9;
+}
+
+.text-gray-500 .group:has(img[alt="Qiyang Hong"]) {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+.text-gray-500 .author-notes {
+  display: inline;
+  margin-left: 0.03rem;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #0f766e;
+  font-size: 0.72em;
+  font-weight: 800;
+  line-height: 0;
+  letter-spacing: 0;
+  text-transform: none;
+  vertical-align: super;
+}
+
+.text-gray-500 .author-notes[data-tooltip*="Corresponding"] {
+  color: #6d28d9;
+}
+
+.text-gray-500 .author-notes svg {
+  display: none;
+}
+
+.text-gray-500 .author-notes::before {
+  content: "*";
+}
+
+.text-gray-500 .author-notes[data-tooltip*="Corresponding"]::before {
+  content: "#";
+}
+
+.text-gray-500 .author-notes[data-tooltip*="Co-first"][data-tooltip*="Corresponding"]::before,
+.text-gray-500 .author-notes[data-tooltip*="First"][data-tooltip*="Corresponding"]::before {
+  content: "*#";
+}
+
+.text-gray-500 .author-notes::after {
+  content: "";
+}

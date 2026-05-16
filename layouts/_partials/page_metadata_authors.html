@@ -1,4 +1,4 @@
-{{/* Display author list with prominent owner and contribution badges. */}}
+{{/* Display author list with underlined owner and conventional contribution symbols. */}}
 
 {{ if .Params.authors }}
   {{ $terms := .GetTerms "authors" }}
@@ -19,11 +19,11 @@
     </span>
     {{- if isset $.Params "author_notes" -}}
       {{- with (index $.Params.author_notes $index) -}}
-        {{- if in . "Co-first" -}}
-          <span class="author-note-badge author-note-cofirst" title="Co-first author" aria-label="Co-first author">co-first</span>
+        {{- if or (in . "Co-first") (in . "First author") -}}
+          <sup class="author-note-symbol author-note-first" title="Equal contribution / first author" aria-label="Equal contribution / first author">*</sup>
         {{- end -}}
         {{- if in . "Corresponding" -}}
-          <span class="author-note-badge author-note-corresponding" title="Corresponding author" aria-label="Corresponding author">corr.</span>
+          <sup class="author-note-symbol author-note-corresponding" title="Corresponding author" aria-label="Corresponding author">#</sup>
         {{- end -}}
       {{- end -}}
     {{- end -}}
