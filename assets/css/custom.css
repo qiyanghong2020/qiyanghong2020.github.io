@@ -85,3 +85,410 @@
 .text-gray-500 .author-notes::after {
   content: "";
 }
+
+/* ============================================================
+   REFINED ACADEMIC THEME
+   A calm, journal-like restyle of the resume / CV homepage.
+   Marine teal/purple is retained but toned down to a single
+   restrained accent. Scoped to the home blocks so the rest of
+   the site (blog, courses) is left untouched.
+   ============================================================ */
+
+:root {
+  --ra-ink: #1f2937;          /* primary text */
+  --ra-ink-soft: #475569;     /* secondary text */
+  --ra-ink-muted: #6b7280;    /* meta / dates */
+  --ra-accent: #0f766e;       /* toned-down teal (matches author markers) */
+  --ra-accent-strong: #0d5d56;
+  --ra-accent-tint: #ecfdf9;  /* faint teal wash */
+  --ra-hairline: rgba(15, 118, 110, 0.16);
+  --ra-rule: rgba(15, 23, 42, 0.10);
+  --ra-card-bg: #ffffff;
+  --ra-page-bg: #fbfdfd;
+  --ra-serif: "Charter", "Bitstream Charter", "Sitka Text", Cambria,
+    "Source Serif 4", "Georgia", "Times New Roman", serif;
+}
+
+.dark {
+  --ra-ink: #e5e7eb;
+  --ra-ink-soft: #cbd5e1;
+  --ra-ink-muted: #94a3b8;
+  --ra-accent: #5eead4;
+  --ra-accent-strong: #99f6e4;
+  --ra-accent-tint: rgba(45, 212, 191, 0.10);
+  --ra-hairline: rgba(94, 234, 212, 0.22);
+  --ra-rule: rgba(226, 232, 240, 0.14);
+  --ra-card-bg: rgba(30, 41, 59, 0.55);
+  --ra-page-bg: transparent;
+}
+
+/* ---- 1. Calm the hero background ---------------------------------- */
+/* Kill the pulsing blurred colour blobs and soften the mesh overlay
+   so the page reads as a serious researcher profile, not a SaaS hero. */
+.blox-resume-biography-3 .absolute.inset-0.-z-10 > div {
+  animation: none !important;
+  filter: none !important;
+  opacity: 0 !important;
+}
+.blox-resume-biography-3 .absolute.inset-0.-z-10 {
+  background:
+    radial-gradient(120% 90% at 50% -10%, var(--ra-accent-tint) 0%, transparent 55%),
+    var(--ra-page-bg) !important;
+}
+.dark .blox-resume-biography-3 .absolute.inset-0.-z-10 {
+  background:
+    radial-gradient(120% 90% at 50% -10%, rgba(45, 212, 191, 0.10) 0%, transparent 55%) !important;
+}
+
+/* Tighten the over-tall vertical padding of the hero. */
+.blox-resume-biography-3 .resume-biography {
+  padding-top: clamp(2.5rem, 6vw, 5rem) !important;
+  padding-bottom: clamp(2rem, 5vw, 4rem) !important;
+}
+
+/* ---- 2. Typography ----------------------------------------------- */
+.blox-resume-biography-3,
+.blox-markdown,
+#papers,
+.blox-collection {
+  color: var(--ra-ink);
+}
+
+/* Name: elegant serif with restrained weight instead of 900 "black". */
+.blox-resume-biography-3 h1 {
+  font-family: var(--ra-serif);
+  font-weight: 600 !important;
+  letter-spacing: -0.015em;
+  color: var(--ra-ink) !important;
+}
+
+/* Role / title line: calmer accent, not a loud teal. */
+.blox-resume-biography-3 .md\:col-span-4 p.text-2xl,
+.blox-resume-biography-3 .md\:col-span-4 p.text-primary-600 {
+  color: var(--ra-accent) !important;
+  font-weight: 600 !important;
+  font-size: 1.15rem !important;
+  letter-spacing: 0.005em;
+}
+.blox-resume-biography-3 .md\:col-span-4 p.text-lg {
+  color: var(--ra-ink-soft) !important;
+  font-size: 0.98rem !important;
+  line-height: 1.55;
+}
+
+/* Section titles (Summary / Education / Interests …): serif + hairline
+   rule for that journal-section feel. */
+.blox-resume-biography-3 h2,
+.blox-resume-biography-3 h3 {
+  font-family: var(--ra-serif);
+  font-weight: 600 !important;
+  color: var(--ra-ink) !important;
+  letter-spacing: -0.01em;
+}
+.blox-resume-biography-3 .mb-12 > .flex.items-center,
+.blox-resume-biography-3 .mb-16 > .flex.items-center {
+  position: relative;
+  padding-bottom: 0.85rem;
+  margin-bottom: 1.75rem !important;
+  border-bottom: 1px solid var(--ra-rule);
+}
+.blox-resume-biography-3 .mb-12 > .flex.items-center::after,
+.blox-resume-biography-3 .mb-16 > .flex.items-center::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 3.25rem;
+  height: 2px;
+  background: var(--ra-accent);
+}
+
+/* Tone down the round icon chips next to section titles. */
+.blox-resume-biography-3 .flex-shrink-0.w-12.h-12.bg-primary-100,
+.blox-resume-biography-3 .flex-shrink-0.w-12.h-12[class*="bg-primary-900"] {
+  width: 2rem !important;
+  height: 2rem !important;
+  background: transparent !important;
+  color: var(--ra-accent) !important;
+  box-shadow: none !important;
+}
+.blox-resume-biography-3 .flex.items-center .flex-shrink-0 svg {
+  width: 1.35rem !important;
+  height: 1.35rem !important;
+}
+
+/* Body / prose readability. */
+.blox-resume-biography-3 .bio-text,
+.blox-resume-biography-3 .prose {
+  color: var(--ra-ink-soft) !important;
+  line-height: 1.78;
+  font-size: 1.02rem;
+}
+
+/* ---- 3. Avatar ---------------------------------------------------- */
+.blox-resume-biography-3 .avatar {
+  border: 0 !important;
+  box-shadow:
+    0 0 0 1px var(--ra-hairline),
+    0 10px 28px -12px rgba(15, 23, 42, 0.28) !important;
+  outline: 6px solid #ffffff;
+  outline-offset: -1px;
+}
+.dark .blox-resume-biography-3 .avatar {
+  outline-color: rgba(30, 41, 59, 0.9);
+}
+
+/* ---- 4. Profile column: sticky, with a quiet divider ------------- */
+@media (min-width: 768px) {
+  .blox-resume-biography-3 .md\:col-span-4 {
+    position: sticky;
+    top: 5.5rem;
+    padding-right: 2rem;
+    border-right: 1px solid var(--ra-rule);
+  }
+}
+
+/* ---- 5. Social links: refined, no bounce ------------------------- */
+.blox-resume-biography-3 .md\:col-span-4 a[aria-label] {
+  width: 2.6rem !important;
+  height: 2.6rem !important;
+  background: var(--ra-card-bg) !important;
+  color: var(--ra-ink-soft) !important;
+  border: 1px solid var(--ra-rule) !important;
+  box-shadow: none !important;
+  transition: color 0.18s ease, border-color 0.18s ease,
+    background-color 0.18s ease !important;
+}
+.blox-resume-biography-3 .md\:col-span-4 a[aria-label]:hover {
+  transform: none !important;
+  color: var(--ra-accent-strong) !important;
+  border-color: var(--ra-accent) !important;
+  background: var(--ra-accent-tint) !important;
+}
+.blox-resume-biography-3 .md\:col-span-4 a[aria-label] svg {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+}
+
+/* ---- 6. Education / experience cards: clean, not glossy ---------- */
+.blox-resume-biography-3 .group.h-full {
+  background: var(--ra-card-bg) !important;
+  border: 1px solid var(--ra-rule) !important;
+  border-radius: 0.5rem !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.2s ease, transform 0.2s ease !important;
+}
+.blox-resume-biography-3 .group.h-full::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--ra-accent);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.blox-resume-biography-3 .group.h-full:hover {
+  border-color: var(--ra-hairline) !important;
+  transform: translateY(-2px);
+}
+.blox-resume-biography-3 .group.h-full:hover::before {
+  opacity: 1;
+}
+.blox-resume-biography-3 .group.h-full .text-xl.font-bold {
+  font-family: var(--ra-serif);
+  font-weight: 600 !important;
+  font-size: 1.08rem !important;
+}
+.blox-resume-biography-3 .group.h-full:hover .text-xl.font-bold {
+  color: var(--ra-accent-strong) !important;
+}
+/* Inner icon bubble inside cards: quiet it down. */
+.blox-resume-biography-3 .group.h-full .w-12.h-12.rounded-full {
+  background: var(--ra-accent-tint) !important;
+  box-shadow: none !important;
+  --tw-ring-color: transparent !important;
+  color: var(--ra-accent) !important;
+}
+/* The biography block prints raw ISO dates (e.g. "2023-09-01") and the
+   block offers no date_format option. Properly formatted, dated entries
+   already live on the Experience page, so hide the clumsy ISO line here
+   and let the profile card read cleanly as Degree -> Institution. */
+.blox-resume-biography-3 .group.h-full p.text-sm.mt-2 {
+  display: none !important;
+}
+.blox-resume-biography-3 .group.h-full .text-gray-700 {
+  color: var(--ra-ink-soft) !important;
+  margin-top: 0.4rem;
+}
+
+/* ---- 7. Interest pills: hairline, understated ------------------- */
+.blox-resume-biography-3 span.inline-block.rounded-full {
+  background: transparent !important;
+  color: var(--ra-ink-soft) !important;
+  border: 1px solid var(--ra-rule) !important;
+  font-weight: 500 !important;
+  font-size: 0.9rem !important;
+  padding: 0.35rem 0.85rem !important;
+  transition: color 0.18s ease, border-color 0.18s ease !important;
+}
+.blox-resume-biography-3 span.inline-block.rounded-full:hover {
+  color: var(--ra-accent-strong) !important;
+  border-color: var(--ra-accent) !important;
+  background: var(--ra-accent-tint) !important;
+}
+
+/* ---- 8. "Research & Projects" markdown block -------------------- */
+.blox-markdown .text-3xl.font-bold,
+#papers .text-3xl.font-bold,
+.blox-collection .text-3xl.font-bold {
+  font-family: var(--ra-serif);
+  font-weight: 600 !important;
+  letter-spacing: -0.01em;
+  color: var(--ra-ink) !important;
+}
+/* Centred section title with an accent rule beneath it. */
+.blox-markdown .text-3xl.font-bold,
+#papers .text-3xl.font-bold {
+  position: relative;
+  padding-bottom: 0.9rem;
+}
+.blox-markdown .text-3xl.font-bold::after,
+#papers .text-3xl.font-bold::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 3rem;
+  height: 2px;
+  background: var(--ra-accent);
+  transform: translateX(-50%);
+}
+/* Lead paragraph reads as a short bio statement. */
+.blox-markdown .prose > p:first-of-type {
+  font-size: 1.12rem;
+  line-height: 1.7;
+  color: var(--ra-ink) !important;
+}
+.blox-markdown .prose p,
+.blox-markdown .prose li {
+  color: var(--ra-ink-soft) !important;
+}
+.blox-markdown .prose strong,
+.blox-markdown .prose em {
+  color: var(--ra-ink);
+}
+/* Project list: two scannable columns on wide screens with a quiet
+   teal marker instead of default bullets. */
+.blox-markdown .prose ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.25rem;
+}
+@media (min-width: 1024px) {
+  .blox-markdown .prose ul {
+    column-count: 2;
+    column-gap: 2.75rem;
+  }
+}
+.blox-markdown .prose ul > li {
+  position: relative;
+  padding-left: 1.4rem;
+  margin: 0 0 0.85rem 0;
+  break-inside: avoid;
+  line-height: 1.62;
+}
+.blox-markdown .prose ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 0.42rem;
+  height: 0.42rem;
+  background: var(--ra-accent);
+  border-radius: 1px;
+  transform: rotate(45deg);
+}
+
+/* ---- 9. Publications: clean citation list ----------------------- */
+.pub-list-item.view-citation {
+  padding: 1.05rem 1.1rem 1.05rem 1.25rem;
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid var(--ra-rule);
+  border-left: 2px solid transparent;
+  border-radius: 2px;
+  transition: background-color 0.18s ease, border-color 0.18s ease;
+}
+.pub-list-item.view-citation:hover {
+  background: var(--ra-accent-tint);
+  border-left-color: var(--ra-accent);
+}
+.pub-list-item .pub-icon {
+  color: var(--ra-accent);
+}
+.pub-list-item a:not(.btn) {
+  color: var(--ra-ink) !important;
+  text-decoration-color: var(--ra-hairline);
+  text-underline-offset: 0.18em;
+  transition: color 0.16s ease, text-decoration-color 0.16s ease;
+}
+.pub-list-item a:not(.btn):hover {
+  color: var(--ra-accent-strong) !important;
+  text-decoration-color: var(--ra-accent);
+}
+/* Titles without a PubMed link render as plain text (not a dead link). */
+.pub-list-item .pub-title-plain {
+  color: var(--ra-ink) !important;
+  text-decoration: none;
+  cursor: default;
+}
+
+.pub-list-item .article-metadata,
+.pub-list-item .li-cite-author {
+  color: var(--ra-ink-soft);
+}
+.pub-list-item em {
+  color: var(--ra-ink-soft);
+}
+
+/* ---- 10. Section rhythm + quiet dividers ------------------------ */
+section.blox-markdown,
+section.blox-collection,
+section#section-collection {
+  padding-top: clamp(2.25rem, 5vw, 3.75rem);
+  padding-bottom: clamp(2.25rem, 5vw, 3.75rem);
+}
+section.blox-markdown + section.blox-collection,
+section.blox-collection + section.blox-collection {
+  border-top: 1px solid var(--ra-rule);
+}
+
+/* ---- 11. Print / PDF: a real CV when saved as PDF --------------- */
+@media print {
+  .blox-resume-biography-3 .absolute.inset-0.-z-10,
+  .blox-resume-biography-3 .md\:col-span-4 a[aria-label],
+  nav, header, footer, .theme-toggle, #section-search { display: none !important; }
+
+  .blox-resume-biography-3 .md\:col-span-4 {
+    position: static;
+    border-right: 0;
+  }
+  *, .blox-resume-biography-3 *, .pub-list-item * {
+    color: #000 !important;
+    box-shadow: none !important;
+    background: #fff !important;
+  }
+  .pub-list-item a:not(.btn)::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    color: #444 !important;
+  }
+  .blox-resume-biography-3 .group.h-full {
+    border: 1px solid #ccc !important;
+    break-inside: avoid;
+  }
+}
