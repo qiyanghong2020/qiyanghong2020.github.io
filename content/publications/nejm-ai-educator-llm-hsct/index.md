@@ -14,7 +14,7 @@ author_notes:
   - ""
 date: "2025-01-01"
 publication_types: ["article-journal"]
-publication: "*NEJM AI* (under revision)"
-summary: "Under revision."
-featured: false
+publication: "*NEJM AI* (revision returned)"
+summary: "Revision returned."
+featured: true
 ---

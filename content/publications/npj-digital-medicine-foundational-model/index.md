@@ -18,8 +18,8 @@ authors:
 author_notes:
   - "Co-first author"
   - "Co-first author"
-  - ""
-  - ""
+  - "Co-first author"
+  - "Co-first author"
   - ""
   - ""
   - ""
