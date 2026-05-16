@@ -17,4 +17,10 @@ publication_types: ["article-journal"]
 publication: "*Computational and Structural Biotechnology Journal*"
 summary: "Published in 2022."
 featured: false
+pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/35198128/"
+links:
+  - type: custom
+    icon: "academicons/pubmed"
+    label: "PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/35198128/"
 ---

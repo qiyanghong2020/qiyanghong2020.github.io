@@ -15,4 +15,10 @@ publication_types: ["article-journal"]
 publication: "*Cell Reports Medicine* (2025)"
 summary: "Cover highlights."
 featured: true
+pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/41494532/"
+links:
+  - type: custom
+    icon: "academicons/pubmed"
+    label: "PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/41494532/"
 ---

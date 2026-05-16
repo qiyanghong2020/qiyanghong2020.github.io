@@ -29,4 +29,10 @@ publication_types: ["article-journal"]
 publication: "*Nature Communications*"
 summary: "Published in 2017."
 featured: false
+pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/28894095/"
+links:
+  - type: custom
+    icon: "academicons/pubmed"
+    label: "PubMed"
+    url: "https://pubmed.ncbi.nlm.nih.gov/28894095/"
 ---
