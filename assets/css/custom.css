@@ -105,8 +105,15 @@
   --ra-rule: rgba(15, 23, 42, 0.10);
   --ra-card-bg: #ffffff;
   --ra-page-bg: #fbfdfd;
-  --ra-serif: "Charter", "Bitstream Charter", "Sitka Text", Cambria,
-    "Source Serif 4", "Georgia", "Times New Roman", serif;
+  /* Unified typography: ONE family (the theme's sans, via inherit) and a
+     single size scale shared by every home block, so nothing jumps. */
+  --ra-font: inherit;
+  --ra-fs-name: clamp(1.6rem, 3.4vw, 2rem);
+  --ra-fs-heading: 1.55rem;   /* every section title, all blocks */
+  --ra-fs-cardtitle: 1.05rem; /* education / experience card titles */
+  --ra-fs-role: 1.05rem;
+  --ra-fs-affil: 0.95rem;
+  --ra-fs-body: 1rem;
 }
 
 .dark {
@@ -154,34 +161,39 @@
   color: var(--ra-ink);
 }
 
-/* Name: elegant serif with restrained weight instead of 900 "black". */
+/* Name: same family as everything else, controlled size so it no longer
+   blows up and wraps "Qiyang / Hong". */
 .blox-resume-biography-3 h1 {
-  font-family: var(--ra-serif);
-  font-weight: 600 !important;
-  letter-spacing: -0.015em;
+  font-family: var(--ra-font) !important;
+  font-size: var(--ra-fs-name) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.01em;
   color: var(--ra-ink) !important;
 }
 
-/* Role / title line: calmer accent, not a loud teal. */
+/* Role / title line: calmer accent, consistent size. */
 .blox-resume-biography-3 .md\:col-span-4 p.text-2xl,
 .blox-resume-biography-3 .md\:col-span-4 p.text-primary-600 {
   color: var(--ra-accent) !important;
   font-weight: 600 !important;
-  font-size: 1.15rem !important;
+  font-size: var(--ra-fs-role) !important;
   letter-spacing: 0.005em;
 }
 .blox-resume-biography-3 .md\:col-span-4 p.text-lg {
   color: var(--ra-ink-soft) !important;
-  font-size: 0.98rem !important;
+  font-size: var(--ra-fs-affil) !important;
   line-height: 1.55;
 }
 
-/* Section titles (Summary / Education / Interests …): serif + hairline
-   rule for that journal-section feel. */
+/* Section titles (Summary / Education / Interests …): same family + size
+   as the markdown / publications titles, so every heading matches. */
 .blox-resume-biography-3 h2,
 .blox-resume-biography-3 h3 {
-  font-family: var(--ra-serif);
-  font-weight: 600 !important;
+  font-family: var(--ra-font) !important;
+  font-size: var(--ra-fs-heading) !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
   color: var(--ra-ink) !important;
   letter-spacing: -0.01em;
 }
@@ -221,8 +233,8 @@
 .blox-resume-biography-3 .bio-text,
 .blox-resume-biography-3 .prose {
   color: var(--ra-ink-soft) !important;
-  line-height: 1.78;
-  font-size: 1.02rem;
+  line-height: 1.75;
+  font-size: var(--ra-fs-body) !important;
 }
 
 /* ---- 3. Avatar ---------------------------------------------------- */
@@ -300,9 +312,10 @@
   opacity: 1;
 }
 .blox-resume-biography-3 .group.h-full .text-xl.font-bold {
-  font-family: var(--ra-serif);
+  font-family: var(--ra-font) !important;
   font-weight: 600 !important;
-  font-size: 1.08rem !important;
+  font-size: var(--ra-fs-cardtitle) !important;
+  line-height: 1.35 !important;
 }
 .blox-resume-biography-3 .group.h-full:hover .text-xl.font-bold {
   color: var(--ra-accent-strong) !important;
@@ -346,8 +359,10 @@
 .blox-markdown .text-3xl.font-bold,
 #papers .text-3xl.font-bold,
 .blox-collection .text-3xl.font-bold {
-  font-family: var(--ra-serif);
-  font-weight: 600 !important;
+  font-family: var(--ra-font) !important;
+  font-size: var(--ra-fs-heading) !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
   letter-spacing: -0.01em;
   color: var(--ra-ink) !important;
 }
@@ -368,15 +383,17 @@
   background: var(--ra-accent);
   transform: translateX(-50%);
 }
-/* Lead paragraph reads as a short bio statement. */
+/* Lead paragraph: same body size, just a touch darker for emphasis. */
 .blox-markdown .prose > p:first-of-type {
-  font-size: 1.12rem;
-  line-height: 1.7;
+  font-size: var(--ra-fs-body) !important;
+  line-height: 1.75;
   color: var(--ra-ink) !important;
 }
 .blox-markdown .prose p,
 .blox-markdown .prose li {
   color: var(--ra-ink-soft) !important;
+  font-size: var(--ra-fs-body) !important;
+  line-height: 1.75;
 }
 .blox-markdown .prose strong,
 .blox-markdown .prose em {
