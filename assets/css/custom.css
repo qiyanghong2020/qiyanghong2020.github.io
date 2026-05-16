@@ -1,7 +1,8 @@
 .blox-markdown .max-w-prose,
 .blox-markdown .prose,
 #papers .max-w-prose,
-#papers .max-w-3xl {
+#papers .max-w-3xl,
+.blox-resume-awards .max-w-prose {
   max-width: min(92vw, 78rem);
 }
 
@@ -358,7 +359,8 @@
 /* ---- 8. "Research & Projects" markdown block -------------------- */
 .blox-markdown .text-3xl.font-bold,
 #papers .text-3xl.font-bold,
-.blox-collection .text-3xl.font-bold {
+.blox-collection .text-3xl.font-bold,
+.blox-resume-awards .text-3xl.font-bold {
   font-family: var(--ra-font) !important;
   font-size: var(--ra-fs-heading) !important;
   font-weight: 700 !important;
@@ -368,12 +370,14 @@
 }
 /* Centred section title with an accent rule beneath it. */
 .blox-markdown .text-3xl.font-bold,
-#papers .text-3xl.font-bold {
+#papers .text-3xl.font-bold,
+.blox-resume-awards .text-3xl.font-bold {
   position: relative;
   padding-bottom: 0.9rem;
 }
 .blox-markdown .text-3xl.font-bold::after,
-#papers .text-3xl.font-bold::after {
+#papers .text-3xl.font-bold::after,
+.blox-resume-awards .text-3xl.font-bold::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -472,15 +476,73 @@
   color: var(--ra-ink-soft);
 }
 
+/* ---- 9b. Peer Review Service cards (resume-awards block) -------- */
+/* Match the refined education-card treatment so the section blends in. */
+.blox-resume-awards .w-full.p-6.bg-white.border,
+.blox-resume-awards [class*="bg-white"][class*="border"][class*="rounded-lg"] {
+  background: var(--ra-card-bg) !important;
+  border: 1px solid var(--ra-rule) !important;
+  border-radius: 0.5rem !important;
+  box-shadow: none !important;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.2s ease, transform 0.2s ease !important;
+}
+.blox-resume-awards .w-full.p-6.bg-white.border::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--ra-accent);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.blox-resume-awards .w-full.p-6.bg-white.border:hover {
+  border-color: var(--ra-hairline) !important;
+  transform: translateY(-2px);
+}
+.blox-resume-awards .w-full.p-6.bg-white.border:hover::before {
+  opacity: 1;
+}
+/* Card title = journal name; same scale as the education-card titles. */
+.blox-resume-awards h5 {
+  font-family: var(--ra-font) !important;
+  font-weight: 600 !important;
+  font-size: var(--ra-fs-cardtitle) !important;
+  line-height: 1.35 !important;
+  color: var(--ra-ink) !important;
+}
+/* "Invited peer reviewer · Dec 2025" meta line. */
+.blox-resume-awards .text-sm {
+  color: var(--ra-ink-muted) !important;
+  letter-spacing: 0.01em;
+}
+.blox-resume-awards .prose,
+.blox-resume-awards .prose p {
+  color: var(--ra-ink-soft) !important;
+  font-size: var(--ra-fs-body) !important;
+  line-height: 1.65;
+}
+/* Review icon -> calm accent, not loud primary. */
+.blox-resume-awards [class*="text-primary-600"],
+.blox-resume-awards [class*="text-primary-300"] {
+  color: var(--ra-accent) !important;
+}
+
 /* ---- 10. Section rhythm + quiet dividers ------------------------ */
 section.blox-markdown,
 section.blox-collection,
+section.blox-resume-awards,
 section#section-collection {
   padding-top: clamp(2.25rem, 5vw, 3.75rem);
   padding-bottom: clamp(2.25rem, 5vw, 3.75rem);
 }
 section.blox-markdown + section.blox-collection,
-section.blox-collection + section.blox-collection {
+section.blox-collection + section.blox-collection,
+section.blox-markdown + section.blox-resume-awards,
+section.blox-collection + section.blox-resume-awards {
   border-top: 1px solid var(--ra-rule);
 }
 

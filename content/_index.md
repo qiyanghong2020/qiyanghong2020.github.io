@@ -80,4 +80,8 @@ sections:
         - High-throughput transcriptomics analysis with differential expression and KEGG/GO enrichment.
     design:
       columns: '1'
+  - block: resume-awards
+    content:
+      title: Peer Review Service
+      username: me
 ---
