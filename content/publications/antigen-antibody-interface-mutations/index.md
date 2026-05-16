@@ -1,10 +1,14 @@
 ---
 title: "Identification of strategic residues at the interface of antigen-antibody interactions by in silico mutagenesis"
 authors:
+  - "Lu Xin"
+  - "Hai Yu"
   - me
   - "Ning-Shao Xia"
   - "et al."
 author_notes:
+  - "First author"
+  - ""
   - ""
   - "Corresponding author"
   - ""

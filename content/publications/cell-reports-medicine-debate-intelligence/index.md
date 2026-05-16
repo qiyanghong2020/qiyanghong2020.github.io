@@ -12,7 +12,7 @@ author_notes:
   - ""
 date: "2025-01-01"
 publication_types: ["article-journal"]
-publication: "*Cell Reports Medicine* (accepted)"
+publication: "*Cell Reports Medicine* (2025)"
 summary: "Cover highlights."
 featured: true
 ---

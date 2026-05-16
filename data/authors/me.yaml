@@ -13,8 +13,10 @@ status:
   icon: ""
 bio: "PhD candidate at the Institute of Basic Medical Sciences, Peking Union
   Medical College & Tsinghua University School of Medicine (Beijing, China).
-  Research focuses on foundation models, LLMs, multimodal and temporal modeling
-  for clinical AI, deep phenotyping, and model interpretability.\n"
+  I build foundation models, large language model evaluation frameworks, and
+  clinical bioinformatics pipelines for precision medicine. My current work spans
+  UK Biobank-scale deep phenotyping, longitudinal multi-omics for COPD, medical
+  LLMs, and clinical genomics workflow development.\n"
 affiliations:
   - name: "Institute of Basic Medical Sciences, Peking Union Medical College & Tsinghua University School of Medicine"
     url: ""
@@ -28,6 +30,9 @@ links:
   - icon: "academicons/google-scholar"
     url: "https://scholar.google.com.hk/citations?user=1PCtyx8AAAAJ&hl=zh-CN"
     label: "Google Scholar"
+  - icon: "academicons/cv"
+    url: "/uploads/resume.pdf"
+    label: "CV"
   - icon: "link"
     url: "https://qiyanghong2020.github.io/"
     label: "Personal Site"
@@ -40,6 +45,7 @@ interests:
   - "Deep Phenotyping"
   - "Clinical AI"
   - "Model Interpretability"
+  - "Clinical Bioinformatics"
 education:
   - degree: "PhD in Biomedical Engineering (Medical AI)"
     institution: "Peking Union Medical College & Tsinghua University School of Medicine"
@@ -59,17 +65,17 @@ experience:
     org: "Affiliated Hospital of Putian University"
     start: "2020-08-01"
     end: "2023-07-01"
-    summary: "Led molecular diagnostics workflows for prenatal diagnosis, including genetic testing pipelines, reporting, and quality control.\n"
+    summary: "Led molecular diagnostics workflows for prenatal diagnosis, including genetic testing pipelines, clinical reporting, and quality control.\n"
   - role: "Senior Bioinformatics Engineer (Part-time), Data & Information Department"
     org: "Jinfeng Biotechnology Co., Ltd."
     start: "2020-11-01"
     end: "2022-01-01"
-    summary: "Supported data platform development and bioinformatics workflows for genomic products.\n"
+    summary: "Supported data platform development and bioinformatics workflows for genomic products and clinical data operations.\n"
   - role: "Bioinformatics Supervisor, Bioinformatics Department"
     org: "Berry Genomics (Beijing Berry and Kang Biotechnology Co., Ltd.)"
     start: "2017-07-01"
     end: "2020-08-01"
-    summary: "Managed pipeline development, clinical interpretation, and quality control for genomic diagnostics.\n"
+    summary: "Managed pipeline development, clinical interpretation, and quality control for genomic diagnostics, including WES interpretation, CNV detection, ACMG-based classification, and reporting workflows.\n"
 skills:
   - name: "Artificial Intelligence & Machine Learning"
     items:

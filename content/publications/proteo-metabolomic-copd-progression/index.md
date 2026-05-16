@@ -1,12 +1,20 @@
 ---
 title: "Proteo-metabolomic insights into the progression of COPD and lung function decline"
 authors:
+  - "Junling Pang"
+  - "Xiaoxia Ren"
   - me
   - "Erping Long"
   - "et al."
+author_notes:
+  - "Co-first author"
+  - "Co-first author"
+  - "Co-first author"
+  - "Corresponding author"
+  - ""
 date: "2025-01-01"
 publication_types: ["article-journal"]
-publication: "(Submitted)"
-summary: "Submitted."
+publication: "*Respiratory Research* (under review)"
+summary: "Under review."
 featured: false
 ---
