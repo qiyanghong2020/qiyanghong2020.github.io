@@ -14,7 +14,7 @@ date: "2024-01-01"
 publication_types: ["article-journal"]
 publication: "*Frontiers in Microbiology*"
 summary: "Published in 2024."
-featured: false
+featured: true
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/38962121/"
 links:
   - type: custom

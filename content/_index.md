@@ -33,6 +33,35 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  # Publications first. "Featured" is curated to the first-author /
+  # co-first-author papers; the second list is the remaining co-authored
+  # work. exclude_featured on the second list prevents any duplication.
+  - block: collection
+    id: papers
+    content:
+      title: First-Author & Co-First-Author Publications
+      # Show every first/co-first paper at once (no "See all" link)
+      count: 0
+      filters:
+        folders:
+          - publications
+        featured_only: true
+    design:
+      view: citation
+      columns: 1
+  - block: collection
+    content:
+      title: Co-Authored Publications
+      text: ''
+      # Show all at once; exclude the first/co-first set above (no duplicates)
+      count: 0
+      filters:
+        folders:
+          - publications
+        exclude_featured: true
+    design:
+      view: citation
+      columns: 1
   - block: markdown
     content:
       title: 'Research & Projects'
@@ -51,28 +80,4 @@ sections:
         - High-throughput transcriptomics analysis with differential expression and KEGG/GO enrichment.
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: citation
-      columns: 1
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      # Show every publication at once (no pagination / "See all" link)
-      count: 0
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-      columns: 1
 ---
