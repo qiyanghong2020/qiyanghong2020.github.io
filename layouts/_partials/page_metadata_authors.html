@@ -8,10 +8,11 @@
     {{- $profile := partial "functions/get_author_profile" (dict "slug" $slug) -}}
     {{- $display := cond (eq $raw_author "me") ($profile.title | default "Qiyang Hong") $raw_author -}}
     {{- $is_owner := eq $slug "me" -}}
+    {{- $is_plain := or (eq $raw_author "...") (eq $raw_author "et al.") -}}
 
     {{- if gt $index 0 }}, {{ end -}}
     <span class="{{ if $is_owner }}author-me{{ end }}">
-      {{- if and (lt $index (len $terms)) ((index $terms $index).RelPermalink) -}}
+      {{- if and (not $is_plain) (lt $index (len $terms)) ((index $terms $index).RelPermalink) -}}
         <a href="{{ (index $terms $index).RelPermalink }}">{{ $display }}</a>
       {{- else -}}
         {{ $display }}

@@ -4,18 +4,18 @@ authors:
   - "Fan Wu"
   - me
   - "Junling Pang"
+  - "..."
   - "Erping Long"
   - "Pixin Ran"
   - "Erkang Yi"
-  - "et al."
 author_notes:
   - "Co-first author"
   - "Co-first author"
   - "Co-first author"
-  - "Corresponding author"
-  - "Corresponding author"
-  - "Corresponding author"
   - ""
+  - "Corresponding author"
+  - "Corresponding author"
+  - "Corresponding author"
 date: "2025-01-01"
 publication_types: ["article-journal"]
 publication: "*Respiratory Research* (submitted)"

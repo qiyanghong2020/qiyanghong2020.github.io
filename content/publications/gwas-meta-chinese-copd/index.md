@@ -5,15 +5,15 @@ authors:
   - "Jixin Wang"
   - "Sinan Wu"
   - me
+  - "..."
   - "Erping Long"
-  - "et al."
 author_notes:
   - "Co-first author"
   - "Co-first author"
   - ""
   - ""
-  - "Corresponding author"
   - ""
+  - "Corresponding author"
 date: "2026-01-01"
 publication_types: ["article-journal"]
 publication: "*Genomics Proteomics and Bioinformatics* (2026, in press)"
