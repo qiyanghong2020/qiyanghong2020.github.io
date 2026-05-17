@@ -69,7 +69,9 @@ sections:
     content:
       title: Patents
       text: |-
-        - **A method, device, medium and product for user phenotype identification based on hospital clinical data** — 一种基于医院临床数据的用户表型识别方法、设备、介质及产品. Invention patent, China (CNIPA). Application No. 202610660571.0 — filed, under substantive examination. Inventor 2 of 2.
+        **A method, device, medium and product for user phenotype identification based on hospital clinical data** (一种基于医院临床数据的用户表型识别方法、设备、介质及产品)
+
+        Invention patent · China (CNIPA) · Application No. 202610660571.0 · *Filed, under substantive examination* · Inventor 2 of 2
     design:
       columns: '1'
   - block: markdown
