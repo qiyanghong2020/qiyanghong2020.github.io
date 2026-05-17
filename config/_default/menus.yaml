@@ -19,6 +19,6 @@ main:
   - name: Skills
     url: /#skills
     weight: 50
-  - name: Service
+  - name: Peer Review
     url: /#service
     weight: 60
