@@ -77,69 +77,43 @@ experience:
     end: "2020-08-01"
     summary: "Managed pipeline development, clinical interpretation, and quality control for genomic diagnostics, including WES interpretation, CNV detection, ACMG-based classification, and reporting workflows.\n"
 skills:
-  - name: "Artificial Intelligence & Machine Learning"
+  - name: "AI / Machine Learning"
     items:
-      - label: "Neural Networks"
+      - label: "Foundation Models & LLMs"
         level: 5
-      - label: "Transformers / LLMs"
+      - label: "Multimodal & Temporal Modeling"
         level: 5
-      - label: "Foundation Models"
-        level: 5
-      - label: "Multimodal Learning"
-        level: 4
-      - label: "Temporal Modeling"
-        level: 4
       - label: "Representation Learning"
         level: 4
       - label: "Model Interpretability"
         level: 4
-  - name: "Model Training & High-Performance Computing"
+  - name: "Model Training & HPC"
     items:
-      - label: "PyTorch"
+      - label: "PyTorch · Distributed Training"
         level: 5
-      - label: "CUDA"
+      - label: "GPU Clusters (Linux HPC, A6000/H100)"
         level: 4
-      - label: "Distributed Training"
+      - label: "Large-scale Data & Performance Optimization"
         level: 4
-      - label: "GPU Cluster Management (Linux HPC, A6000/H100)"
-        level: 4
-      - label: "Job Scheduling / System Optimization"
-        level: 4
-      - label: "Large-scale Data Preprocessing"
-        level: 4
-      - label: "Performance Profiling"
-        level: 4
-  - name: "Bioinformatics & Genomic Analysis"
+  - name: "Clinical Bioinformatics & Genomics"
     items:
-      - label: "WES/WGS Pipelines"
+      - label: "WES/WGS & RNA-seq Pipelines"
         level: 5
-      - label: "RNA-seq"
-        level: 5
-      - label: "SNP/Indel/CNV Detection"
-        level: 5
-      - label: "Variant Annotation & ACMG Classification"
+      - label: "Variant Calling & ACMG Interpretation"
         level: 5
       - label: "Immunogenomics / Neoantigen Prediction"
         level: 4
-      - label: "Clinical Diagnostics Workflow Development"
+      - label: "Clinical Diagnostics Workflows"
         level: 4
-  - name: "Programming & Data Engineering"
+  - name: "Programming & Engineering"
     items:
-      - label: "Python / NumPy / pandas / scikit-learn"
+      - label: "Python (NumPy / pandas / scikit-learn)"
         level: 5
-      - label: "Workflow Automation"
-        level: 4
-      - label: "Reproducible Pipelines"
+      - label: "Reproducible Pipelines & Automation"
         level: 4
       - label: "Django Web Applications"
         level: 4
-  - name: "Data Visualization & Network Analysis"
-    items:
-      - label: "matplotlib / seaborn"
-        level: 4
-      - label: "igraph / networkx"
-        level: 4
-      - label: "Interactive Visualization (Clinical/Genomic)"
+      - label: "Data Visualization (matplotlib / networkx)"
         level: 4
 awards:
   - title: "Nature Medicine"
