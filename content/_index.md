@@ -51,6 +51,7 @@ sections:
       view: citation
       columns: 1
   - block: collection
+    id: copublications
     content:
       title: Co-Authored Publications
       text: ''
@@ -90,6 +91,7 @@ sections:
       # Hugo date format
       date_format: 'January 2006'
   - block: resume-skills
+    id: skills
     content:
       title: Skills
       username: me
@@ -104,6 +106,7 @@ sections:
     design:
       columns: '1'
   - block: resume-awards
+    id: service
     content:
       title: Peer Review Service
       username: me
