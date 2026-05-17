@@ -101,19 +101,20 @@
   --ra-ink: #1f2937;          /* primary text */
   --ra-ink-soft: #475569;     /* secondary text */
   --ra-ink-muted: #6b7280;    /* meta / dates */
-  --ra-accent: #0b5d54;       /* deep teal (more gravitas + contrast) */
-  --ra-accent-strong: #084a43;
-  --ra-accent-tint: #f3f0e8;  /* warm sand wash (hovers, chips, nodes) */
-  --ra-hairline: rgba(120, 108, 86, 0.30);
-  --ra-rule: rgba(72, 64, 49, 0.14);
+  --ra-accent: #2b8fff;       /* bright sky-blue: links, bars, nodes */
+  --ra-accent-strong: #1d6dd6;/* darker sky for text/hover (AA contrast) */
+  --ra-accent-tint: #eaf3ff;  /* pale sky wash (hovers, chips, nodes) */
+  --ra-pop: #f59e0b;          /* warm amber pop (section underlines) */
+  --ra-hairline: rgba(37, 99, 160, 0.22);
+  --ra-rule: rgba(30, 41, 59, 0.10);
   --ra-card-bg: #ffffff;
-  --ra-page-bg: #fbfaf6;      /* warm paper */
+  --ra-page-bg: #fcfdff;      /* airy near-white */
 
-  /* Warm the whole page + navbar so it reads scholarly, not "tech".
-     Overrides the Marine sky-blue surface. !important so it wins over
-     the theme's inline :root no matter the stylesheet order. */
-  --color-background: #fbfaf6 !important;
-  --color-header-bg: #f4f1e8 !important;
+  /* Airy near-white page + soft sky navbar so it feels light and
+     cheerful. !important so it wins over the Marine theme's inline
+     :root regardless of stylesheet order. */
+  --color-background: #fcfdff !important;
+  --color-header-bg: #edf3fd !important;
   --color-header-fg: #1f2937 !important;
   /* Unified typography: ONE family (the theme's sans, via inherit) and a
      single size scale shared by every home block, so nothing jumps. */
@@ -222,7 +223,7 @@
   bottom: -1px;
   width: 3.25rem;
   height: 2px;
-  background: var(--ra-accent);
+  background: var(--ra-pop);
 }
 
 /* Tone down the round icon chips next to section titles. */
@@ -399,7 +400,7 @@
   bottom: 0;
   width: 3rem;
   height: 2px;
-  background: var(--ra-accent);
+  background: var(--ra-pop);
   transform: translateX(-50%);
 }
 /* Lead paragraph: same body size, just a touch darker for emphasis. */
