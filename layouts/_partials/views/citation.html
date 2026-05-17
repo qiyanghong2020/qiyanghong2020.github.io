@@ -4,6 +4,14 @@
      rendered as plain, non-clickable text (no link to the local page). */}}
 {{ $pubmed_url := $item.Params.pubmed_url }}
 
+{{/* Year shown in the citation. For manuscripts that are not yet published
+     (submitted / under review / in revision / in preparation) show the
+     CURRENT year, since that work is ongoing; otherwise use the paper's
+     own date. "in press" keeps its assigned (forthcoming) year. */}}
+{{ $pub_status := lower (($item.Params.publication_short | default $item.Params.publication) | default "") }}
+{{ $in_progress := or (in $pub_status "submitted") (in $pub_status "under review") (in $pub_status "in review") (in $pub_status "revision") (in $pub_status "in preparation") (in $pub_status "in prep") }}
+{{ $cite_year := cond $in_progress (now.Format "2006") ($item.Date.Format "2006") }}
+
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
@@ -23,7 +31,7 @@
   {{ else if $item.Params.publication }}
     {{- $item.Params.publication | markdownify -}},
   {{ end }}
-  {{ $item.Date.Format "2006" }}.
+  {{ $cite_year }}.
 
   {{ if $has_attachments }}
   <div class="flex flex-wrap space-x-3">
@@ -47,7 +55,7 @@
   {{ else if $item.Params.publication }}
     {{- $item.Params.publication | markdownify -}},
   {{ end }}
-  {{- $item.Date.Format "2006" -}}.
+  {{- $cite_year -}}.
 
   {{ if $has_attachments }}
   <div class="flex flex-wrap space-x-3">
