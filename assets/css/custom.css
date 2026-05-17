@@ -540,35 +540,43 @@
 }
 
 /* ---- 9c. Experience/Education timeline + Skills ---------------- */
-/* Timeline rail + nodes -> hairline + calm accent. */
-.blox-resume-experience ol.relative {
+/* Shared by the work-history timeline AND the Education timeline that
+   now lives in the bio block, so both rails look identical. */
+.blox-resume-experience ol.relative,
+.blox-resume-biography-3 ol.relative {
   border-inline-start-color: var(--ra-rule) !important;
 }
-.blox-resume-experience ol.relative > li > span.absolute {
+.blox-resume-experience ol.relative > li > span.absolute,
+.blox-resume-biography-3 ol.relative > li > span.absolute {
   background: var(--ra-accent-tint) !important;
   --tw-ring-color: var(--ra-page-bg) !important;
   color: var(--ra-accent) !important;
 }
-.blox-resume-experience ol.relative > li > span.absolute svg {
+.blox-resume-experience ol.relative > li > span.absolute svg,
+.blox-resume-biography-3 ol.relative > li > span.absolute svg {
   color: var(--ra-accent) !important;
 }
 /* Role / degree title -> same scale as the other card titles. */
-.blox-resume-experience ol.relative > li > h3 {
+.blox-resume-experience ol.relative > li > h3,
+.blox-resume-biography-3 ol.relative > li > h3 {
   font-family: var(--ra-font) !important;
   font-size: var(--ra-fs-cardtitle) !important;
   font-weight: 600 !important;
   line-height: 1.35 !important;
   color: var(--ra-ink) !important;
 }
-/* Org + dates meta line. */
-.blox-resume-experience ol.relative > li .text-sm {
+/* Org / institution + dates meta line. */
+.blox-resume-experience ol.relative > li .text-sm,
+.blox-resume-biography-3 ol.relative > li .text-sm {
   color: var(--ra-ink-muted) !important;
   letter-spacing: 0.01em;
 }
-.blox-resume-experience ol.relative > li time {
+.blox-resume-experience ol.relative > li time,
+.blox-resume-biography-3 ol.relative > li time {
   font-variant-numeric: tabular-nums;
 }
-.blox-resume-experience ol.relative > li .prose {
+.blox-resume-experience ol.relative > li .prose,
+.blox-resume-biography-3 ol.relative > li .prose {
   color: var(--ra-ink-soft) !important;
   font-size: var(--ra-fs-body) !important;
   line-height: 1.7;

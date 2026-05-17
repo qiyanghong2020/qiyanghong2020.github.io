@@ -207,37 +207,34 @@
             {{ $education_heading := $block.content.headings.education | default (i18n "education") }}
             <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $education_heading | markdownify }}</h3>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+          {{/* Timeline format (vertical rail + nodes), matching the
+               work-history timeline style. */}}
+          <ol class="relative w-full border-s border-gray-200 dark:border-gray-700">
             {{ range . }}
-            <div class="group h-full flex flex-col bg-gradient-to-br from-white/90 to-primary-50/30 dark:from-gray-800/90 dark:to-primary-900/20 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-transparent hover:border-primary-200 dark:hover:border-primary-800 backdrop-blur-md">
-              <div class="flex gap-4">
-                <div class="flex-shrink-0 w-12 h-12 bg-white dark:bg-gray-800 ring-1 ring-gray-200 dark:ring-gray-700 rounded-full flex items-center justify-center shadow-md">
-                  {{ if .icon }}
-                    {{ partial "functions/get_icon" (dict "name" .icon "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
-                  {{else}}
-                    {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
-                  {{end}}
-                </div>
-                <div class="flex-1 flex-grow">
-                  {{ $degree := .degree | default .area }}
-                  <p class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
-                    {{ $degree }}
-                  </p>
-                  {{ $start := .start }}{{ $end := .end }}
-                  {{ if .year }}
-                    <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">{{ .year }}</p>
-                  {{ else if $start }}
-                    <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">
-                      {{ (time $start) | time.Format "Jan 2006" }} &ndash;
-                      {{ if $end }}{{ (time $end) | time.Format "Jan 2006" }}{{ else }}{{ i18n "present" | default "Present" }}{{ end }}
-                    </p>
-                  {{ end }}
-                  <p class="text-gray-700 dark:text-gray-300 text-base">{{ .institution }}</p>
-                </div>
-              </div>
-            </div>
+            <li class="mb-10 ms-6">
+              <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+                {{ if .icon }}
+                  {{ partial "functions/get_icon" (dict "name" .icon "attributes" "class='w-5 h-5 text-primary-800 dark:text-primary-300'") }}
+                {{ else }}
+                  {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "class='w-5 h-5 text-primary-800 dark:text-primary-300'") }}
+                {{ end }}
+              </span>
+              <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ .degree | default .area }}</h3>
+              <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">{{ .institution }}</span>
+              <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+                {{ $start := .start }}{{ $end := .end }}
+                {{- if .year -}}
+                  {{ .year }}
+                {{- else if $start -}}
+                  {{ (time $start) | time.Format "Jan 2006" }} &ndash; {{ if $end }}{{ (time $end) | time.Format "Jan 2006" }}{{ else }}{{ i18n "present" | default "Present" }}{{ end }}
+                {{- end -}}
+              </time>
+              {{ with .summary }}
+              <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose max-w-none prose-slate dark:prose-invert">{{ . | $page.RenderString }}</div>
+              {{ end }}
+            </li>
             {{ end }}
-          </div>
+          </ol>
         </div>
         {{ end }}
 
