@@ -20,7 +20,7 @@ author_notes:
   - "Corresponding author"
 date: "2025-01-01"
 publication_types: ["article-journal"]
-publication: "*Cell Reports* (2025)"
+publication: "*Cell Reports*"
 summary: "Published in 2025."
 featured: false
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/41275498/"

@@ -18,7 +18,7 @@ author_notes:
   - "Corresponding author"
 date: "2025-01-01"
 publication_types: ["article-journal"]
-publication: "*Signal Transduction and Targeted Therapy* (2025)"
+publication: "*Signal Transduction and Targeted Therapy*"
 summary: "Published in 2025."
 featured: true
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/41559025/"

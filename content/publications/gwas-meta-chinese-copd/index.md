@@ -16,7 +16,7 @@ author_notes:
   - "Corresponding author"
 date: "2026-01-01"
 publication_types: ["article-journal"]
-publication: "*Genomics Proteomics and Bioinformatics* (2026, in press)"
+publication: "*Genomics Proteomics and Bioinformatics* (in press)"
 summary: "In press."
 featured: false
 ---

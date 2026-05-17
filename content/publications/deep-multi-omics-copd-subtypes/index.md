@@ -22,7 +22,7 @@ author_notes:
   - "Corresponding author"
 date: "2025-01-01"
 publication_types: ["article-journal"]
-publication: "*Med* (2025)"
+publication: "*Med*"
 summary: "Published in 2025."
 featured: false
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/41791394/"
