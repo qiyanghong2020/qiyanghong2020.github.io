@@ -101,13 +101,20 @@
   --ra-ink: #1f2937;          /* primary text */
   --ra-ink-soft: #475569;     /* secondary text */
   --ra-ink-muted: #6b7280;    /* meta / dates */
-  --ra-accent: #0f766e;       /* toned-down teal (matches author markers) */
-  --ra-accent-strong: #0d5d56;
-  --ra-accent-tint: #ecfdf9;  /* faint teal wash */
-  --ra-hairline: rgba(15, 118, 110, 0.16);
-  --ra-rule: rgba(15, 23, 42, 0.10);
+  --ra-accent: #0b5d54;       /* deep teal (more gravitas + contrast) */
+  --ra-accent-strong: #084a43;
+  --ra-accent-tint: #f3f0e8;  /* warm sand wash (hovers, chips, nodes) */
+  --ra-hairline: rgba(120, 108, 86, 0.30);
+  --ra-rule: rgba(72, 64, 49, 0.14);
   --ra-card-bg: #ffffff;
-  --ra-page-bg: #fbfdfd;
+  --ra-page-bg: #fbfaf6;      /* warm paper */
+
+  /* Warm the whole page + navbar so it reads scholarly, not "tech".
+     Overrides the Marine sky-blue surface. !important so it wins over
+     the theme's inline :root no matter the stylesheet order. */
+  --color-background: #fbfaf6 !important;
+  --color-header-bg: #f4f1e8 !important;
+  --color-header-fg: #1f2937 !important;
   /* Unified typography: ONE family (the theme's sans, via inherit) and a
      single size scale shared by every home block, so nothing jumps. */
   --ra-font: inherit;
