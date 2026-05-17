@@ -114,6 +114,7 @@
      cheerful. !important so it wins over the Marine theme's inline
      :root regardless of stylesheet order. */
   --color-background: #fcfdff !important;
+  --color-foreground: #1f2937 !important;
   --color-header-bg: #edf3fd !important;
   --color-header-fg: #1f2937 !important;
   /* Unified typography: ONE family (the theme's sans, via inherit) and a
@@ -127,17 +128,34 @@
   --ra-fs-body: 1rem;
 }
 
+/* The site is intentionally light-only (the theme toggle is disabled).
+   If a visitor still has a stale dark preference saved, or the OS is in
+   dark mode, neutralise `.dark` so it renders identically to light —
+   never the unreadable light-on-light state. */
 .dark {
-  --ra-ink: #e5e7eb;
-  --ra-ink-soft: #cbd5e1;
-  --ra-ink-muted: #94a3b8;
-  --ra-accent: #5eead4;
-  --ra-accent-strong: #99f6e4;
-  --ra-accent-tint: rgba(45, 212, 191, 0.10);
-  --ra-hairline: rgba(94, 234, 212, 0.22);
-  --ra-rule: rgba(226, 232, 240, 0.14);
-  --ra-card-bg: rgba(30, 41, 59, 0.55);
-  --ra-page-bg: transparent;
+  --ra-ink: #1f2937;
+  --ra-ink-soft: #475569;
+  --ra-ink-muted: #6b7280;
+  --ra-accent: #2b8fff;
+  --ra-accent-strong: #1d6dd6;
+  --ra-accent-tint: #eaf3ff;
+  --ra-pop: #f59e0b;
+  --ra-hairline: rgba(37, 99, 160, 0.22);
+  --ra-rule: rgba(30, 41, 59, 0.10);
+  --ra-card-bg: #ffffff;
+  --ra-page-bg: #fcfdff;
+  --color-background: #fcfdff !important;
+  --color-foreground: #1f2937 !important;
+  --color-header-bg: #edf3fd !important;
+  --color-header-fg: #1f2937 !important;
+  color-scheme: light;
+}
+/* Keep theme `dark:` utility text readable on the forced-light surface. */
+.dark body,
+.dark footer,
+.dark .navbar,
+.dark .navbar a {
+  color: #1f2937 !important;
 }
 
 /* ---- 1. Calm the hero background ---------------------------------- */
