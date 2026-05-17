@@ -10,6 +10,9 @@ main:
   - name: Publications
     url: /#papers
     weight: 20
+  - name: Patents
+    url: /#patents
+    weight: 25
   - name: Research
     url: /#research
     weight: 30
