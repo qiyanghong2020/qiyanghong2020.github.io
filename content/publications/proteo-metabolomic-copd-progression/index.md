@@ -4,7 +4,7 @@ authors:
   - "Junling Pang"
   - "Xiaoxia Ren"
   - me
-  - "..."
+  - "…"
   - "Erping Long"
 author_notes:
   - "Co-first author"

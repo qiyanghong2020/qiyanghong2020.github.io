@@ -69,7 +69,7 @@ sections:
       title: 'Research & Projects'
       subtitle: ''
       text: |-
-        PhD candidate in Medical AI at the Institute of Basic Medical Sciences, Peking Union Medical College & Tsinghua University School of Medicine. I work on foundation models, medical LLM evaluation, multimodal and temporal modeling, deep phenotyping, and clinical bioinformatics pipelines for precision medicine.
+        My research turns foundation models and rigorous LLM evaluation into tools that work on real clinical and genomic data — from UK Biobank-scale deep phenotyping and longitudinal multi-omics in COPD to production bioinformatics pipelines that move from raw sequence to a clinical report.
 
         Selected projects:
         - Temporal foundation models for COPD progression (National Science and Technology Major Project, Youth Scientist Program, 2025-2028).

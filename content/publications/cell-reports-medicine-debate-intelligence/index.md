@@ -3,7 +3,7 @@ title: "Model confrontation and collaboration: a debate intelligence framework f
 authors:
   - "Xinti Sun"
   - me
-  - "..."
+  - "…"
   - "Peixing Wan"
   - "Erping Long"
 author_notes:

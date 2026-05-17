@@ -1,0 +1,7 @@
+# Project i18n overrides.
+# Keep the Hugo Blox attribution (required unless you hold a HugoBlox Pro
+# licence) but make it as discreet as possible: no salesy CTA wording.
+- id: published_with
+  translation: Made with {hugoblox}
+- id: poweredby_button
+  translation: ↗

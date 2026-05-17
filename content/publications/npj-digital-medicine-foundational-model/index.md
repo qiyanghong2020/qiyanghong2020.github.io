@@ -3,7 +3,7 @@ title: "A foundational model encodes deep phenotyping data and enables diverse d
 authors:
   - me
   - "Cong Wang"
-  - "..."
+  - "…"
   - "Junling Pang"
   - "Erping Long"
 author_notes:

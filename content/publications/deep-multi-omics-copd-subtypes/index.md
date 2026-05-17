@@ -6,7 +6,7 @@ authors:
   - "Junye Chen"
   - "Jixin Wang"
   - me
-  - "..."
+  - "…"
   - "Junling Pang"
   - "Erping Long"
   - "J. Wang"

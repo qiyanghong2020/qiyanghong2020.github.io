@@ -6,7 +6,7 @@ authors:
   - "Cui J"
   - "Wang H"
   - me
-  - "..."
+  - "…"
   - "Erping Long"
 author_notes:
   - "Co-first author"

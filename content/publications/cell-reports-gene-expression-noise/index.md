@@ -6,7 +6,7 @@ authors:
   - "Tingwei Chen"
   - "Xiaoyu Huang"
   - me
-  - "..."
+  - "…"
   - "Tongwu Zhang"
   - "Erping Long"
 author_notes:

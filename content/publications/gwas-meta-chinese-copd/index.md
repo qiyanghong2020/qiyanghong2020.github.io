@@ -5,7 +5,7 @@ authors:
   - "Jixin Wang"
   - "Sinan Wu"
   - me
-  - "..."
+  - "…"
   - "Erping Long"
 author_notes:
   - "Co-first author"

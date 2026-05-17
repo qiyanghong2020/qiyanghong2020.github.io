@@ -4,7 +4,7 @@ authors:
   - "Fan Wu"
   - me
   - "Junling Pang"
-  - "..."
+  - "…"
   - "Erping Long"
   - "Pixin Ran"
   - "Erkang Yi"

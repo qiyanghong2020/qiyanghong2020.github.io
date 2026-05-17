@@ -293,62 +293,8 @@
   height: 1.2rem !important;
 }
 
-/* ---- 6. Education / experience cards: clean, not glossy ---------- */
-.blox-resume-biography-3 .group.h-full {
-  background: var(--ra-card-bg) !important;
-  border: 1px solid var(--ra-rule) !important;
-  border-radius: 0.5rem !important;
-  box-shadow: none !important;
-  backdrop-filter: none !important;
-  position: relative;
-  overflow: hidden;
-  transition: border-color 0.2s ease, transform 0.2s ease !important;
-}
-.blox-resume-biography-3 .group.h-full::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: var(--ra-accent);
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-.blox-resume-biography-3 .group.h-full:hover {
-  border-color: var(--ra-hairline) !important;
-  transform: translateY(-2px);
-}
-.blox-resume-biography-3 .group.h-full:hover::before {
-  opacity: 1;
-}
-.blox-resume-biography-3 .group.h-full .text-xl.font-bold {
-  font-family: var(--ra-font) !important;
-  font-weight: 600 !important;
-  font-size: var(--ra-fs-cardtitle) !important;
-  line-height: 1.35 !important;
-}
-.blox-resume-biography-3 .group.h-full:hover .text-xl.font-bold {
-  color: var(--ra-accent-strong) !important;
-}
-/* Inner icon bubble inside cards: quiet it down. */
-.blox-resume-biography-3 .group.h-full .w-12.h-12.rounded-full {
-  background: var(--ra-accent-tint) !important;
-  box-shadow: none !important;
-  --tw-ring-color: transparent !important;
-  color: var(--ra-accent) !important;
-}
-/* Education cards: the override formats the dates ("Sep 2023 - Present"),
-   so show that line as a quiet, tabular meta row. */
-.blox-resume-biography-3 .group.h-full p.text-sm.mt-2 {
-  color: var(--ra-ink-muted) !important;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: 0.01em;
-}
-.blox-resume-biography-3 .group.h-full .text-gray-700 {
-  color: var(--ra-ink-soft) !important;
-  margin-top: 0.4rem;
-}
+/* (Bio Education is now the timeline in section 9c, not card grid —
+    the old .group.h-full card rules were removed as dead code.) */
 
 /* ---- 7. Interest pills: hairline, understated ------------------- */
 .blox-resume-biography-3 span.inline-block.rounded-full {
@@ -646,8 +592,8 @@ section.blox-resume-skills {
     font-size: 0.75em;
     color: #444 !important;
   }
-  .blox-resume-biography-3 .group.h-full {
-    border: 1px solid #ccc !important;
+  .blox-resume-biography-3 ol.relative > li,
+  .pub-list-item.view-citation {
     break-inside: avoid;
   }
 }

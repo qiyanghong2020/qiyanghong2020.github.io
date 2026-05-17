@@ -4,7 +4,7 @@ authors:
   - me
   - "Sulin Xu"
   - "Qianqian Zhang"
-  - "..."
+  - "…"
   - "Erping Long"
 author_notes:
   - "Co-first author"
