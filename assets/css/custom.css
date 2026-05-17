@@ -456,6 +456,48 @@
   color: var(--ra-ink-soft);
 }
 
+/* Type / status tag — small scannable prefix (Fries-style). */
+.pub-list-item .pub-tag {
+  display: inline-block;
+  margin-right: 0.55rem;
+  padding: 0.06rem 0.5rem;
+  border: 1px solid var(--ra-rule);
+  border-radius: 999px;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: 0.08em;
+  white-space: nowrap;
+  color: var(--ra-ink-muted);
+}
+.pub-list-item .pub-tag-progress {
+  color: var(--ra-accent-strong);
+  border-color: var(--ra-accent);
+  background: var(--ra-accent-tint);
+}
+.pub-list-item .pub-tag-press {
+  color: #9a6206;
+  border-color: var(--ra-pop);
+  background: rgba(245, 158, 11, 0.12);
+}
+
+/* Flagship venues stand out vs. the muted italic journal default. */
+.pub-list-item .pub-venue em {
+  color: var(--ra-ink-soft);
+}
+.pub-list-item .pub-venue-flagship em {
+  color: var(--ra-ink) !important;
+  font-weight: 600;
+}
+
+/* Prominent publication year. */
+.pub-list-item .pub-year {
+  font-weight: 700;
+  color: var(--ra-accent-strong);
+  font-variant-numeric: tabular-nums;
+}
+
 /* ---- 9b. Peer Review Service cards (resume-awards block) -------- */
 /* Match the refined education-card treatment so the section blends in. */
 .blox-resume-awards .w-full.p-6.bg-white.border,

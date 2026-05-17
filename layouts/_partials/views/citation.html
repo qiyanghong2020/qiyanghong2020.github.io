@@ -12,12 +12,31 @@
 {{ $in_progress := or (in $pub_status "submitted") (in $pub_status "under review") (in $pub_status "in review") (in $pub_status "revision") (in $pub_status "in preparation") (in $pub_status "in prep") }}
 {{ $cite_year := cond $in_progress (now.Format "2006") ($item.Date.Format "2006") }}
 
+{{/* Type / status tag (Fries-style scannable prefix). */}}
+{{ $pub_raw := ($item.Params.publication_short | default $item.Params.publication) | default "" }}
+{{ $tag := "Journal" }}{{ $tag_kind := "journal" }}
+{{ if in $pub_status "submitted" }}{{ $tag = "Submitted" }}{{ $tag_kind = "progress" }}
+{{ else if or (in $pub_status "under review") (in $pub_status "in review") }}{{ $tag = "Under review" }}{{ $tag_kind = "progress" }}
+{{ else if in $pub_status "revision" }}{{ $tag = "In revision" }}{{ $tag_kind = "progress" }}
+{{ else if or (in $pub_status "in preparation") (in $pub_status "in prep") }}{{ $tag = "In prep" }}{{ $tag_kind = "progress" }}
+{{ else if in $pub_status "in press" }}{{ $tag = "In press" }}{{ $tag_kind = "press" }}
+{{ end }}
+
+{{/* Flagship-venue emphasis. */}}
+{{ $flagships := slice "npj digital medicine" "nature medicine" "nature biomedical engineering" "nature communications" "nejm ai" "cell reports medicine" "cell reports" "signal transduction and targeted therapy" "*med*" "lancet" }}
+{{ $is_flagship := false }}
+{{ range $flagships }}{{ if in $pub_status . }}{{ $is_flagship = true }}{{ end }}{{ end }}
+
+{{/* Venue without the trailing "(status)" — the tag conveys status now. */}}
+{{ $venue := replaceRE `\s*\([^)]*\)\s*$` "" $pub_raw }}
+
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   {{/* APA Style */}}
   {{ if eq (site.Params.hugoblox.content.citations.style | default "apa") "apa" }}
 
+  <span class="pub-tag pub-tag-{{ $tag_kind }}">{{ $tag }}</span>
   <span class="article-metadata li-cite-author">
     {{ partial "page_metadata_authors" $item }}.
   </span>
@@ -26,12 +45,7 @@
   {{ else }}
   <span class="pub-title-plain">{{ $item.Title }}</span>.
   {{ end }}
-  {{ if $item.Params.publication_short }}
-    {{- $item.Params.publication_short | markdownify -}},
-  {{ else if $item.Params.publication }}
-    {{- $item.Params.publication | markdownify -}},
-  {{ end }}
-  {{ $cite_year }}.
+  {{ with $venue }}<span class="pub-venue{{ if $is_flagship }} pub-venue-flagship{{ end }}">{{- . | markdownify -}}</span>, {{ end }}<span class="pub-year">{{ $cite_year }}</span>.
 
   {{ if $has_attachments }}
   <div class="flex flex-wrap space-x-3">
