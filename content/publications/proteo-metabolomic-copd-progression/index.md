@@ -12,9 +12,10 @@ author_notes:
   - "Co-first author"
   - ""
   - "Corresponding author"
-date: "2025-01-01"
+date: "2026-06-13"
+weight: 50
 publication_types: ["article-journal"]
-publication: "*Respiratory Research* (under review)"
-summary: "Under review."
+publication: "*Respiratory Research* (accepted)"
+summary: "Accepted."
 featured: true
 ---

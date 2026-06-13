@@ -11,6 +11,7 @@ author_notes:
   - "Corresponding author"
   - ""
 date: "2024-01-01"
+weight: 40
 publication_types: ["article-journal"]
 publication: "*Frontiers in Microbiology*"
 summary: "Published in 2024."

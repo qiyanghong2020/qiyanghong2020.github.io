@@ -17,6 +17,7 @@ author_notes:
   - ""
   - "Corresponding author"
 date: "2025-01-01"
+weight: 30
 publication_types: ["article-journal"]
 publication: "*Signal Transduction and Targeted Therapy*"
 summary: "Published in 2025."

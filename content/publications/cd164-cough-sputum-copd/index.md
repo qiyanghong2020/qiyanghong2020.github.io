@@ -17,6 +17,7 @@ author_notes:
   - "Corresponding author"
   - "Corresponding author"
 date: "2025-01-01"
+weight: 70
 publication_types: ["article-journal"]
 publication: "*Respiratory Research* (submitted)"
 summary: "Submitted."

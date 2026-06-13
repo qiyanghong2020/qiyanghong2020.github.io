@@ -47,6 +47,10 @@ sections:
         folders:
           - publications
         featured_only: true
+      # Order the curated first/co-first list manually so published or
+      # accepted papers appear before manuscripts still in review.
+      sort_by: Weight
+      sort_ascending: true
     design:
       view: citation
       columns: 1

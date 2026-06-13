@@ -19,6 +19,7 @@
 {{ else if or (in $pub_status "under review") (in $pub_status "in review") }}{{ $tag = "Under review" }}{{ $tag_kind = "progress" }}
 {{ else if in $pub_status "revision" }}{{ $tag = "In revision" }}{{ $tag_kind = "progress" }}
 {{ else if or (in $pub_status "in preparation") (in $pub_status "in prep") }}{{ $tag = "In prep" }}{{ $tag_kind = "progress" }}
+{{ else if in $pub_status "accepted" }}{{ $tag = "Accepted" }}{{ $tag_kind = "press" }}
 {{ else if in $pub_status "in press" }}{{ $tag = "In press" }}{{ $tag_kind = "press" }}
 {{ end }}
 

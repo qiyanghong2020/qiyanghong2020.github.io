@@ -13,6 +13,7 @@ author_notes:
   - ""
   - "Corresponding author"
 date: "2025-01-01"
+weight: 60
 publication_types: ["article-journal"]
 publication: "*NEJM AI* (revision returned)"
 summary: "Revision returned."

@@ -13,6 +13,7 @@ author_notes:
   - "Corresponding author"
   - "Corresponding author"
 date: "2026-05-14"
+weight: 10
 publication_types: ["article-journal"]
 publication: "*npj Digital Medicine*"
 summary: "Published online 14 May 2026. DOI: 10.1038/s41746-026-02736-w. Introduces ukbFound, a foundation model for UK Biobank deep phenotyping data from 502,118 individuals, with downstream applications in disease stratification, multimorbidity analysis, and disease prediction."

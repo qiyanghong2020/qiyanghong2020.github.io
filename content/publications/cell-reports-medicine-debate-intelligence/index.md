@@ -13,6 +13,7 @@ author_notes:
   - "Corresponding author"
   - "Corresponding author"
 date: "2025-01-01"
+weight: 20
 publication_types: ["article-journal"]
 publication: "*Cell Reports Medicine*"
 summary: "Cover highlights."
