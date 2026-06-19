@@ -18,4 +18,5 @@ publication_types: ["article-journal"]
 publication: "*NEJM AI* (revision returned)"
 summary: "Revision returned."
 featured: true
+draft: true
 ---
