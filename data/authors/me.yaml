@@ -8,11 +8,11 @@ name:
   alternate: ""
   pronunciation: ""
   pronouns: ""
-role: "PhD Candidate in Biomedical Engineering (Medical AI)"
+role: "Recent PhD Graduate in Biomedical Engineering (Medical AI)"
 status:
   icon: ""
-bio: "PhD candidate at the Institute of Basic Medical Sciences, Tsinghua
-  University & Peking Union Medical College (Beijing, China).
+bio: "Recent PhD graduate in Biomedical Engineering (Medical AI) from Tsinghua
+  University & Peking Union Medical College.
   I build foundation models, large language model evaluation frameworks, and
   clinical bioinformatics pipelines for precision medicine. My current work spans
   UK Biobank-scale deep phenotyping, longitudinal multi-omics for COPD, medical
@@ -50,6 +50,7 @@ education:
   - degree: "PhD in Biomedical Engineering (Medical AI)"
     institution: "Tsinghua University & Peking Union Medical College"
     start: "2023-09-01"
+    end: "2026-06-01"
     summary: "Advisor: Prof. Erping Long (Researcher; National Overseas Young Talent). Core expertise: foundation models, LLMs, multimodal and temporal modeling; deep phenotyping, clinical AI; model interpretability; high-performance computing (4xA6000, 2xH100).\n"
   - degree: "MSc in Biochemistry and Molecular Biology"
     institution: "Xiamen University"
