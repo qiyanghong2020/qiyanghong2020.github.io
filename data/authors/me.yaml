@@ -11,14 +11,14 @@ name:
 role: "PhD Candidate in Biomedical Engineering (Medical AI)"
 status:
   icon: ""
-bio: "PhD candidate at the Institute of Basic Medical Sciences, Peking Union
-  Medical College & Tsinghua University School of Medicine (Beijing, China).
+bio: "PhD candidate at the Institute of Basic Medical Sciences, Tsinghua
+  University & Peking Union Medical College (Beijing, China).
   I build foundation models, large language model evaluation frameworks, and
   clinical bioinformatics pipelines for precision medicine. My current work spans
   UK Biobank-scale deep phenotyping, longitudinal multi-omics for COPD, medical
   LLMs, and clinical genomics workflow development.\n"
 affiliations:
-  - name: "Institute of Basic Medical Sciences, Peking Union Medical College & Tsinghua University School of Medicine"
+  - name: "Institute of Basic Medical Sciences, Tsinghua University & Peking Union Medical College"
     url: ""
 links:
   - icon: "at-symbol"
@@ -48,7 +48,7 @@ interests:
   - "Clinical Bioinformatics"
 education:
   - degree: "PhD in Biomedical Engineering (Medical AI)"
-    institution: "Peking Union Medical College & Tsinghua University School of Medicine"
+    institution: "Tsinghua University & Peking Union Medical College"
     start: "2023-09-01"
     summary: "Advisor: Prof. Erping Long (Researcher; National Overseas Young Talent). Core expertise: foundation models, LLMs, multimodal and temporal modeling; deep phenotyping, clinical AI; model interpretability; high-performance computing (4xA6000, 2xH100).\n"
   - degree: "MSc in Biochemistry and Molecular Biology"
@@ -60,6 +60,10 @@ education:
     institution: "Jimei University"
     start: "2010-09-01"
     end: "2014-07-01"
+  - degree: "BS in Computer Science and Technology"
+    institution: "The Open University of China"
+    start: "2023-09-01"
+    year: "Sept 2023–2026"
 experience:
   - role: "Molecular Group Leader, Prenatal Diagnosis Center"
     org: "Affiliated Hospital of Putian University"
