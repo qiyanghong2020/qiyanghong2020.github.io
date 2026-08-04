@@ -20,10 +20,10 @@ author_notes:
   - "Corresponding author"
   - "Corresponding author"
   - "Corresponding author"
-date: "2025-01-01"
+date: "2026-01-01"
 publication_types: ["article-journal"]
 publication: "*Med*"
-summary: "Published in 2025."
+summary: "Published in 2026. DOI: 10.1016/j.medj.2026.101033. Defines three molecular COPD subtypes in a biomass-exposed Chinese population through deep multi-omics profiling."
 featured: false
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/41791394/"
 links:

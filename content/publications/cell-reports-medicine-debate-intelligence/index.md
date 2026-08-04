@@ -12,11 +12,11 @@ author_notes:
   - ""
   - "Corresponding author"
   - "Corresponding author"
-date: "2025-01-01"
+date: "2026-01-01"
 weight: 20
 publication_types: ["article-journal"]
 publication: "*Cell Reports Medicine*"
-summary: "Cover highlights."
+summary: "Published in 2026. DOI: 10.1016/j.xcrm.2025.102547. Presents a debate-intelligence framework for improving medical reasoning through structured model confrontation and collaboration."
 featured: true
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/41494532/"
 links:

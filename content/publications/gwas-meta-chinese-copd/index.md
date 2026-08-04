@@ -16,7 +16,7 @@ author_notes:
   - "Corresponding author"
 date: "2026-01-01"
 publication_types: ["article-journal"]
-publication: "*Genomics Proteomics and Bioinformatics* (in press)"
-summary: "In press."
+publication: "*Genomics, Proteomics & Bioinformatics* (accepted in principle)"
+summary: "Accepted in principle in 2026. Expands COPD genetic architecture and ancestry-specific risk prediction through GWAS meta-analysis including a new Chinese population."
 featured: false
 ---

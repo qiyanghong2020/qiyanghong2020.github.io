@@ -18,7 +18,7 @@ author_notes:
   - ""
   - ""
   - "Corresponding author"
-date: "2025-01-01"
+date: "2026-01-01"
 publication_types: ["article-journal"]
 publication: "*Nature Aging* (under review)"
 summary: "Under review."

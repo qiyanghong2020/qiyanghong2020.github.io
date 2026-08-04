@@ -8,15 +8,15 @@ name:
   alternate: ""
   pronunciation: ""
   pronouns: ""
-role: "Recent PhD Graduate in Biomedical Engineering (Medical AI)"
+role: "Biomedical AI Researcher | Foundation Models, Multi-omics & Clinical AI"
 status:
   icon: ""
-bio: "Recent PhD graduate in Biomedical Engineering (Medical AI) from Tsinghua
-  University & Peking Union Medical College.
-  I build foundation models, large language model evaluation frameworks, and
-  clinical bioinformatics pipelines for precision medicine. My current work spans
-  UK Biobank-scale deep phenotyping, longitudinal multi-omics for COPD, medical
-  LLMs, and clinical genomics workflow development.\n"
+bio: "Biomedical AI researcher with a PhD in Biomedical Engineering (Medical AI)
+  from Tsinghua University & Peking Union Medical College. I connect patient-level
+  phenotypes, longitudinal outcomes, and molecular data through foundation models,
+  causal multi-omics, and clinically evaluated AI. My work spans UK Biobank-scale
+  deep phenotyping, COPD progression, medical LLMs, and production clinical genomics,
+  with an emphasis on leakage-controlled evaluation and human oversight.\n"
 affiliations:
   - name: "Institute of Basic Medical Sciences, Tsinghua University & Peking Union Medical College"
     url: ""
@@ -37,15 +37,13 @@ links:
     url: "https://qiyanghong2020.github.io/"
     label: "Personal Site"
 interests:
-  - "Foundation Models"
-  - "Large Language Models"
-  - "Multimodal Learning"
-  - "Temporal Modeling"
-  - "Representation Learning"
-  - "Deep Phenotyping"
-  - "Clinical AI"
-  - "Model Interpretability"
-  - "Clinical Bioinformatics"
+  - "Biomedical Foundation Models"
+  - "Patient Phenotyping & Longitudinal Modeling"
+  - "Single-Cell & Multi-omics AI"
+  - "Virtual Cells & Perturbation Modeling"
+  - "Clinical LLMs & Human-AI Collaboration"
+  - "Causal Genomics & Therapeutic Discovery"
+  - "Trustworthy Model Evaluation"
 education:
   - degree: "PhD in Biomedical Engineering (Medical AI)"
     institution: "Tsinghua University & Peking Union Medical College"
@@ -88,9 +86,9 @@ skills:
         level: 5
       - label: "Multimodal & Temporal Modeling"
         level: 5
-      - label: "Representation Learning"
+      - label: "Representation Learning & Generative Models"
         level: 4
-      - label: "Model Interpretability"
+      - label: "Leakage-Controlled Evaluation & Interpretability"
         level: 4
   - name: "Model Training & HPC"
     items:
@@ -104,12 +102,12 @@ skills:
     items:
       - label: "WES/WGS & RNA-seq Pipelines"
         level: 5
+      - label: "Multi-omics, Single-Cell & Spatial Analysis"
+        level: 4
+      - label: "Causal Genomics (GWAS / QTL / MR)"
+        level: 4
       - label: "Variant Calling & ACMG Interpretation"
         level: 5
-      - label: "Immunogenomics / Neoantigen Prediction"
-        level: 4
-      - label: "Clinical Diagnostics Workflows"
-        level: 4
   - name: "Programming & Engineering"
     items:
       - label: "Python (NumPy / pandas / scikit-learn)"

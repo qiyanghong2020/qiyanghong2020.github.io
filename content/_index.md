@@ -81,20 +81,19 @@ sections:
   - block: markdown
     id: research
     content:
-      title: 'Research & Projects'
+      title: 'Research Focus & Selected Contributions'
       subtitle: ''
       text: |-
-        My research turns foundation models and rigorous LLM evaluation into tools that work on real clinical and genomic data — from UK Biobank-scale deep phenotyping and longitudinal multi-omics in COPD to production bioinformatics pipelines that move from raw sequence to a clinical report.
+        My research connects patient-level phenotypes, molecular mechanisms, and clinically evaluated AI. I build models and workflows around real biomedical questions, then test them with leakage-controlled, held-out designs and clinically meaningful endpoints.
 
-        Selected projects:
-        - Temporal foundation models for COPD progression (National Science and Technology Major Project, Youth Scientist Program, 2025-2028).
-        - Biomedical foundation model on UK Biobank deep phenotyping (>500,000 participants), now online in *npj Digital Medicine* (2026), for disease prediction, multimorbidity analysis, and patient stratification across 289 conditions.
-        - Automated clinical WES analysis pipeline from FASTQ to SNP/Indel/CNV detection, annotation, ACMG classification, and reporting.
-        - Neoantigen prediction and immunogenomics pipeline integrating WES and RNA-seq with NetMHC/MHCflurry.
-        - WES clinical interpretation and visualization platform (Django) for variants, coverage, CNVs, and Sanger traces.
-        - Consumer genomics analysis framework plus inherited disease and metabolic panel pipelines (thalassemia, SMA, mitochondrial disorders, mtDNA).
-        - Custom WES probe design optimization for pathogenic ClinVar regions.
-        - High-throughput transcriptomics analysis with differential expression and KEGG/GO enrichment.
+        Selected contributions:
+        - **Population-scale foundation modeling.** Built ukbFound from 2,781 traits in 502,118 UK Biobank participants. The model supported disease prediction, multimorbidity analysis, and patient stratification across 289 conditions; 53 disease cohorts contained subgroups with robust prognostic differences (*npj Digital Medicine*, 2026; co-first author).
+        - **COPD progression and causal multi-omics.** Integrated GWAS, eQTL/pQTL, longitudinal lung-function outcomes, and single-cell and spatial evidence to prioritize SERPING1 as a COPD modulator (*Signal Transduction and Targeted Therapy*, 2026; co-first author). Ongoing work develops temporal foundation models for longitudinal multi-omics in COPD.
+        - **Clinical LLM evaluation.** Co-led a five-arm, 350-patient randomized trial of real-time LLM support for HSCT discharge education (under review) and co-developed a debate-intelligence framework evaluated with benchmarks, clinicians, laypeople, and diagnostic dialogues (*Cell Reports Medicine*, 2026; co-first author).
+        - **Clinical genomics infrastructure.** Developed production workflows spanning FASTQ-to-report WES analysis, SNP/Indel/CNV detection, ACMG interpretation, immunogenomics, inherited-disease panels, and clinician-facing Django visualization.
+
+        Future direction:
+        - **Patient-informed virtual cells.** I aim to link single-cell and spatial representations with patient phenotypes and longitudinal outcomes, simulate genetic and pharmacological perturbations, and prioritize experimentally testable interventions. The goal is uncertainty-aware decision support for researchers and clinicians—not autonomous clinical decision-making.
     design:
       columns: '1'
   - block: resume-experience
