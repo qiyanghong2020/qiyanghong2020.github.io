@@ -92,8 +92,6 @@ sections:
         - **Clinical LLM evaluation.** Co-led a five-arm, 350-patient randomized trial of real-time LLM support for HSCT discharge education (under review) and co-developed a debate-intelligence framework evaluated with benchmarks, clinicians, laypeople, and diagnostic dialogues (*Cell Reports Medicine*, 2026; co-first author).
         - **Clinical genomics infrastructure.** Developed production workflows spanning FASTQ-to-report WES analysis, SNP/Indel/CNV detection, ACMG interpretation, immunogenomics, inherited-disease panels, and clinician-facing Django visualization.
 
-        Future direction:
-        - **Patient-informed virtual cells.** I aim to link single-cell and spatial representations with patient phenotypes and longitudinal outcomes, simulate genetic and pharmacological perturbations, and prioritize experimentally testable interventions. The goal is uncertainty-aware decision support for researchers and clinicians—not autonomous clinical decision-making.
     design:
       columns: '1'
   - block: resume-experience
