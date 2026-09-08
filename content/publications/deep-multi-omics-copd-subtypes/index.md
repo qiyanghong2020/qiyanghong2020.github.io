@@ -1,5 +1,5 @@
 ---
-title: "Deep multi-omics profiling reveals three distinct molecular subtypes of chronic obstructive pulmonary disease in a unique biomass-exposed Chinese population"
+title: "Deep multi-omics profiling reveals three molecular subtypes of chronic obstructive pulmonary disease in a unique biomass-exposed Chinese population"
 authors:
   - "Wenqian Wu"
   - "Minyu Zhou"

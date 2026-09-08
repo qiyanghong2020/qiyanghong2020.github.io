@@ -3,10 +3,10 @@ hugoblox:
   identity:
     name: Qiyang Hong
     type: person
-    tagline: Biomedical AI Researcher | Foundation Models, Multi-omics & Clinical AI
-    description: Qiyang Hong is a biomedical AI researcher with a PhD from Tsinghua University and Peking Union Medical College. His work connects population-scale phenotyping, longitudinal multi-omics, clinical LLM evaluation, and genomic workflows for precision medicine.
+    tagline: Biomedical Data Science Researcher | Machine Learning & Multi-omics
+    description: Qiyang Hong develops and evaluates machine learning methods for biomedical data, focusing on disease risk, patient stratification, disease progression, multi-omics analysis, and medical language model evaluation.
   seo:
-    title: Qiyang Hong — Biomedical AI Researcher
+    title: Qiyang Hong — Biomedical Data Science Researcher
   theme:
     mode: light
     pack: marine

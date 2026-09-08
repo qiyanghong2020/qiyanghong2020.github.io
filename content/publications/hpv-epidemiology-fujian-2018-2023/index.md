@@ -3,15 +3,17 @@ title: "Cervical HPV infection and related diseases among 149,559 women in Fujia
 authors:
   - "K. Lin"
   - me
+  - "Y. Fu"
+  - "…"
   - "Mingqiao Chen"
-  - "et al."
 author_notes:
   - "Co-first author"
   - "Co-first author"
-  - "Corresponding author"
+  - "Co-first author"
   - ""
+  - "Corresponding author"
 date: "2024-01-01"
-weight: 40
+weight: 50
 publication_types: ["article-journal"]
 publication: "*Frontiers in Microbiology*"
 summary: "Published in 2024."
