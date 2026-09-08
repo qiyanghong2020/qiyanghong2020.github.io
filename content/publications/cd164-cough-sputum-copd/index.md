@@ -22,4 +22,5 @@ publication_types: ["article-journal"]
 publication: "*Respiratory Research* (submitted)"
 summary: "Submitted in 2026. Examines cough, sputum, and CD164 as risk markers for COPD progression and lung-function decline."
 featured: true
+draft: true
 ---

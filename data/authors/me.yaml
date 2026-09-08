@@ -8,15 +8,13 @@ name:
   alternate: ""
   pronunciation: ""
   pronouns: ""
-role: "Biomedical AI Researcher | Foundation Models, Multi-omics & Clinical AI"
+role: "Biomedical Data Science Researcher | Machine Learning & Multi-omics"
 status:
   icon: ""
-bio: "Biomedical AI researcher with a PhD in Biomedical Engineering (Medical AI)
-  from Tsinghua University & Peking Union Medical College. I connect patient-level
-  phenotypes, longitudinal outcomes, and molecular data through foundation models,
-  causal multi-omics, and clinically evaluated AI. My work spans UK Biobank-scale
-  deep phenotyping, COPD progression, medical LLMs, and production clinical genomics,
-  with an emphasis on leakage-controlled evaluation and human oversight.\n"
+bio: |-
+  I develop and evaluate machine learning methods for biomedical data, with a focus on disease risk, patient stratification, and disease progression. My work spans large-scale phenotyping, multi-omics analysis, and the evaluation of medical language models. I am particularly interested in learning useful representations from complex biomedical data and assessing how reliably these models perform on medically relevant tasks.
+
+  I earned my PhD in Biomedical Engineering from Tsinghua University & Peking Union Medical College in June 2026.
 affiliations:
   - name: "Institute of Basic Medical Sciences, Tsinghua University & Peking Union Medical College"
     url: ""
@@ -45,24 +43,18 @@ links:
   - icon: "link"
     url: "https://qiyanghong2020.github.io/"
     label: "Personal Site"
-interests:
-  - "Biomedical Foundation Models"
-  - "Patient Phenotyping & Longitudinal Modeling"
-  - "Single-Cell & Multi-omics AI"
-  - "Clinical LLMs & Human-AI Collaboration"
-  - "Causal Genomics & Therapeutic Discovery"
-  - "Trustworthy Model Evaluation"
+interests: []
 education:
-  - degree: "PhD in Biomedical Engineering (Medical AI)"
+  - degree: "PhD in Biomedical Engineering"
     institution: "Tsinghua University & Peking Union Medical College"
     start: "2023-09-01"
     end: "2026-06-01"
-    summary: "Advisor: Prof. Erping Long. Core expertise: foundation models, LLMs, multimodal and temporal modeling; deep phenotyping, clinical AI; model interpretability; high-performance computing (4xA6000, 2xH100).\n"
+    summary: "Advisor: Prof. Erping Long. Degree awarded June 26, 2026. Research: machine learning for deep phenotyping, disease risk prediction, and patient stratification.\n"
   - degree: "MSc in Biochemistry and Molecular Biology"
     institution: "Xiamen University"
     start: "2014-09-01"
     end: "2017-07-01"
-    summary: "Advisor: Prof. Ning-Shao Xia. Specialization: transcriptomics, viral immunology, structural biology, computational molecular analysis.\n"
+    summary: "Advisor: Prof. Ning-Shao Xia. Research contribution: bioinformatics support, data processing, and computational analysis.\n"
   - degree: "BEng in Bioengineering"
     institution: "Jimei University"
     start: "2010-09-01"
@@ -72,68 +64,16 @@ education:
     start: "2023-09-01"
     year: "Sept 2023–2026"
 experience:
-  - role: "Molecular Group Leader, Prenatal Diagnosis Center"
+  - role: "Group Leader, Molecular Diagnostics"
     org: "Affiliated Hospital of Putian University"
     start: "2020-08-01"
     end: "2023-07-01"
-    summary: "Led molecular diagnostics workflows for prenatal diagnosis, including genetic testing pipelines, clinical reporting, and quality control.\n"
-  - role: "Bioinformatics Supervisor, Bioinformatics Department"
-    org: "Berry Genomics (Beijing Berry and Kang Biotechnology Co., Ltd.)"
+    summary: "Prenatal Diagnosis Center. Worked on biomedical data analysis, clinical reporting workflows, and quality control.\n"
+  - role: "Bioinformatics Supervisor"
+    org: "Berry Genomics Co., Ltd."
     start: "2017-07-01"
     end: "2020-08-01"
-    summary: "Managed pipeline development, clinical interpretation, and quality control for genomic diagnostics, including WES interpretation, CNV detection, ACMG-based classification, and reporting workflows.\n"
-skills:
-  - name: "AI / Machine Learning"
-    items:
-      - label: "Foundation Models & LLMs"
-        level: 5
-      - label: "Multimodal & Temporal Modeling"
-        level: 5
-      - label: "Representation Learning & Generative Models"
-        level: 4
-      - label: "Leakage-Controlled Evaluation & Interpretability"
-        level: 4
-  - name: "Model Training & HPC"
-    items:
-      - label: "PyTorch · Distributed Training"
-        level: 5
-      - label: "GPU Clusters (Linux HPC, A6000/H100)"
-        level: 4
-      - label: "Large-scale Data & Performance Optimization"
-        level: 4
-  - name: "Clinical Bioinformatics & Genomics"
-    items:
-      - label: "WES/WGS & RNA-seq Pipelines"
-        level: 5
-      - label: "Multi-omics, Single-Cell & Spatial Analysis"
-        level: 4
-      - label: "Causal Genomics (GWAS / QTL / MR)"
-        level: 4
-      - label: "Variant Calling & ACMG Interpretation"
-        level: 5
-  - name: "Programming & Engineering"
-    items:
-      - label: "Python (NumPy / pandas / scikit-learn)"
-        level: 5
-      - label: "Reproducible Pipelines & Automation"
-        level: 4
-      - label: "Django Web Applications"
-        level: 4
-      - label: "Data Visualization (matplotlib / networkx)"
-        level: 4
-awards:
-  - title: "Nature Medicine"
-    awarder: "Co-reviewer (with Prof. Erping Long)"
-    date: "2025-12-01"
-    summary: "Manuscript peer review for clinical and translational medicine research (Springer Nature)."
-    icon: "hero/clipboard-document-check"
-  - title: "Frontiers in Aging Neuroscience"
-    awarder: "Co-reviewer (with Prof. Erping Long)"
-    date: "2024-01-01"
-    summary: "Manuscript peer review for aging and neuroscience research."
-    icon: "hero/clipboard-document-check"
-  - title: "Nature Biomedical Engineering"
-    awarder: "Co-reviewer (with Prof. Erping Long)"
-    date: "2023-08-01"
-    summary: "Manuscript peer review for biomedical engineering and AI research (Springer Nature)."
-    icon: "hero/clipboard-document-check"
+    summary: "Developed and maintained bioinformatics analysis and reporting workflows for clinical genomic data.\n"
+# Technical skills and peer-review invitations are maintained in content/_index.md.
+skills: []
+awards: []

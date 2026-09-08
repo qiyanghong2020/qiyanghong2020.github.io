@@ -54,19 +54,17 @@ sections:
     design:
       view: citation
       columns: 1
-  - block: collection
+  - block: markdown
     id: copublications
     content:
-      title: Co-Authored Publications
-      text: ''
-      # Show all at once; exclude the first/co-first set above (no duplicates)
-      count: 0
-      filters:
-        folders:
-          - publications
-        exclude_featured: true
+      title: Selected Co-Authored Publications
+      text: |-
+        **Deep multi-omics profiling reveals three molecular subtypes of chronic obstructive pulmonary disease in a unique biomass-exposed Chinese population.** *Med* (2026). [Publication details](/publications/deep-multi-omics-copd-subtypes/)
+
+        **Genetic determinants of gene expression noise and its role in complex trait variation.** *Cell Reports* (2025). [Publication details](/publications/cell-reports-gene-expression-noise/)
+
+        [Full publication archive](/publications/) · [Google Scholar](https://scholar.google.com.hk/citations?user=1PCtyx8AAAAJ&hl=en)
     design:
-      view: citation
       columns: 1
   - block: markdown
     id: patents
@@ -81,16 +79,14 @@ sections:
   - block: markdown
     id: research
     content:
-      title: 'Research Focus & Selected Contributions'
+      title: 'Selected Research Projects'
       subtitle: ''
       text: |-
-        My research connects patient-level phenotypes, molecular mechanisms, and clinically evaluated AI. I build models and workflows around real biomedical questions, then test them with leakage-controlled, held-out designs and clinically meaningful endpoints.
+        **ukbFound for patient stratification and disease risk prediction.** Developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The work supported disease risk prediction, multimorbidity analysis, and patient stratification across 289 conditions (*npj Digital Medicine*, 2026).
 
-        Selected contributions:
-        - **Population-scale foundation modeling.** Built ukbFound from 2,781 traits in 502,118 UK Biobank participants. The model supported disease prediction, multimorbidity analysis, and patient stratification across 289 conditions; 53 disease cohorts contained subgroups with robust prognostic differences (*npj Digital Medicine*, 2026; co-first author).
-        - **COPD progression and causal multi-omics.** Integrated GWAS, eQTL/pQTL, longitudinal lung-function outcomes, and single-cell and spatial evidence to prioritize SERPING1 as a COPD modulator (*Signal Transduction and Targeted Therapy*, 2026; co-first author). Ongoing work develops temporal foundation models for longitudinal multi-omics in COPD.
-        - **Clinical LLM evaluation.** Co-led a five-arm, 350-patient randomized trial of real-time LLM support for HSCT discharge education (under review) and co-developed a debate-intelligence framework evaluated with benchmarks, clinicians, laypeople, and diagnostic dialogues (*Cell Reports Medicine*, 2026; co-first author).
-        - **Clinical genomics infrastructure.** Developed production workflows spanning FASTQ-to-report WES analysis, SNP/Indel/CNV detection, ACMG interpretation, immunogenomics, inherited-disease panels, and clinician-facing Django visualization.
+        **Evaluation of medical language models.** Contributed to data acquisition, curation, and analysis for evaluating collaborative language models on medical questions and clinical reasoning tasks (*Cell Reports Medicine*, 2026).
+
+        **Multi-omics analysis of COPD and lung function decline.** Contributed to studies integrating genetic, protein, metabolite, and clinical data to investigate chronic obstructive pulmonary disease, molecular subtypes, and longitudinal lung function decline (*Signal Transduction and Targeted Therapy*, *Med*, and *Respiratory Research*, 2026).
 
     design:
       columns: '1'
@@ -101,24 +97,36 @@ sections:
     design:
       # Hugo date format
       date_format: 'January 2006'
-  - block: resume-skills
-    id: skills
-    content:
-      title: Skills
-      username: me
   - block: markdown
-    id: certifications
+    id: teaching
     content:
-      title: Certifications & Licenses
+      title: Teaching Experience
       text: |-
-        - Health Professional Qualification (Clinical Laboratory / Medical Testing), National Health Authority of China (2012).
-        - Clinical PCR Laboratory Technician Certification, Fujian Provincial Clinical Laboratory Center (Sept 2020).
-        - Bioinformatics Engineer Certification, ICT Support / ICTTT (Jan 2015).
+        **Part-time Course Tutor** · Experimental College, The Open University of China · September 2023–August 2025
+
+        Course: Special Topics in Artificial Intelligence.
     design:
       columns: '1'
-  - block: resume-awards
+  - block: markdown
+    id: skills
+    content:
+      title: Technical Skills
+      text: |-
+        **Biomedical Data Science & Machine Learning:** Machine learning, multimodal and longitudinal data modeling, model interpretation, and analysis of large-scale biomedical and clinical datasets.
+
+        **Bioinformatics & Statistical Analysis:** Multi-omics, genomic and transcriptomic data analysis; survival analysis, multiple-testing correction, and resampling methods.
+
+        **Programming & Data Analysis:** Python, PyTorch, NumPy, pandas, scikit-learn, and reproducible data-analysis workflows.
+    design:
+      columns: '1'
+  - block: markdown
     id: service
     content:
       title: Peer Review Service
-      username: me
+      text: |-
+        **Invited reviewer (2026; 5 invitations):** Journal of Medical Internet Research (2); JMIR AI (1); JMIR Medical Education (1); JMIR Cardio (1).
+
+        **Co-reviewer (with Prof. Erping Long):** Nature Medicine; Nature Biomedical Engineering; Frontiers in Aging Neuroscience.
+    design:
+      columns: '1'
 ---
