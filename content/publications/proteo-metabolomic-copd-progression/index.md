@@ -32,7 +32,7 @@ date: "2026-07-01"
 weight: 40
 publication_types: ["article-journal"]
 publication: "*Respiratory Research* (2026)"
-summary: "Published online July 1, 2026. DOI: 10.1186/s12931-026-03768-2."
+summary: "Co-first author. Contributed to proteomic, metabolomic, and clinical data analyses of COPD progression and longitudinal lung function decline."
 featured: true
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/42387628/"
 hugoblox:
