@@ -7,7 +7,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
+  spacing: '3rem'
 
 sections:
   - block: resume-biography-3
@@ -15,9 +15,10 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
+      subtitle: 'Machine Learning for Disease Risk & Progression'
       text: ''
       headings:
-        about: ''
+        about: 'About'
         education: ''
         interests: ''
     design:
@@ -67,26 +68,16 @@ sections:
     design:
       columns: 1
   - block: markdown
-    id: patents
-    content:
-      title: Patents
-      text: |-
-        **A method, device, medium and product for user phenotype identification based on hospital clinical data** (一种基于医院临床数据的用户表型识别方法、设备、介质及产品)
-
-        Invention patent · China (CNIPA) · Application No. 202610660571.0 · *Filed, under substantive examination* · Inventor 2 of 2
-    design:
-      columns: '1'
-  - block: markdown
     id: research
     content:
       title: 'Selected Research Projects'
       subtitle: ''
       text: |-
-        **ukbFound for patient stratification and disease risk prediction.** Developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The study explored disease risk prediction and multimorbidity, and identified patient subgroups across 289 conditions (*npj Digital Medicine*, 2026).
+        **ukbFound.** Developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The study explored disease risk prediction and multimorbidity, and identified patient subgroups across 289 conditions.
 
-        **Evaluation of medical language models.** Contributed to data acquisition, curation, and analysis for evaluating collaborative language models on medical questions and clinical reasoning tasks (*Cell Reports Medicine*, 2026).
+        **Medical language model evaluation.** Contributed to data acquisition, curation, and analysis for evaluating collaborative language models on medical questions and clinical reasoning tasks.
 
-        **Multi-omics analysis of COPD and lung function decline.** Contributed to studies integrating genetic, protein, metabolite, and clinical data to investigate chronic obstructive pulmonary disease, molecular subtypes, and longitudinal lung function decline (*Signal Transduction and Targeted Therapy*, *Med*, and *Respiratory Research*, 2026).
+        **COPD and lung function decline.** Contributed to multi-omics studies integrating genetic, protein, metabolite, and clinical data to investigate molecular subtypes and longitudinal disease progression.
 
     design:
       columns: '1'
@@ -98,25 +89,23 @@ sections:
       # Hugo date format
       date_format: 'January 2006'
   - block: markdown
-    id: teaching
-    content:
-      title: Teaching Experience
-      text: |-
-        **Part-time Course Tutor** · Experimental College, The Open University of China · September 2023–August 2025
-
-        Course: Special Topics in Artificial Intelligence.
-    design:
-      columns: '1'
-  - block: markdown
     id: skills
     content:
       title: Technical Skills
       text: |-
-        **Top skills:** Machine Learning · PyTorch · Python · Multimodal Learning · Bioinformatics.
+        **Methods:** Machine learning, multimodal modeling, medical language model evaluation, and multi-omics analysis.
 
-        **Additional skills:** Deep Learning · Foundation Models · Transformers · Large Language Models (LLM) · Artificial Intelligence (AI).
+        **Programming & analysis:** Python, PyTorch, statistical and survival analysis, and reproducible workflows.
+    design:
+      columns: '1'
+  - block: markdown
+    id: patents
+    content:
+      title: Patents
+      text: |-
+        **A method, device, medium and product for user phenotype identification based on hospital clinical data** (一种基于医院临床数据的用户表型识别方法、设备、介质及产品)
 
-        **Data analysis:** Statistical analysis, survival analysis, and reproducible data-analysis workflows.
+        Invention patent · China (CNIPA) · Application No. 202610660571.0 · *Filed, under substantive examination* · Inventor 2 of 2
     design:
       columns: '1'
   - block: markdown

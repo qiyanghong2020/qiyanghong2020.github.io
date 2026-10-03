@@ -8,19 +8,13 @@ name:
   alternate: ""
   pronunciation: ""
   pronouns: ""
-role: "Biomedical AI Researcher | Machine Learning for Disease Risk & Progression | PhD in Biomedical Engineering"
+role: "Biomedical AI Researcher"
 status:
   icon: ""
 bio: |-
   I develop and evaluate machine learning methods for biomedical and clinical data, focusing on disease risk prediction, patient stratification, and disease progression. My work includes large-scale phenotyping, multi-omics analysis, and medical language model evaluation.
 
-  As a co-first author of ukbFound (npj Digital Medicine, 2026), I developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The study explored disease risk prediction and multimorbidity, and identified patient subgroups across 289 conditions.
-
-  For our medical language model study (Cell Reports Medicine, 2026), I was a co-first author and contributed to data acquisition, curation, and analysis for evaluating collaborative language models on medical questions and clinical reasoning tasks. I also contributed to multi-omics studies integrating genetic, protein, metabolite, and clinical data to investigate COPD, molecular subtypes, and longitudinal lung function decline.
-
-  I earned my PhD in Biomedical Engineering from Tsinghua University & Peking Union Medical College in June 2026. Previously, I worked as a Bioinformatics Supervisor at Berry Genomics.
-
-  My technical work includes Python, PyTorch, statistical analysis, survival analysis, and reproducible data-analysis workflows.
+  I am a co-first author of ukbFound (npj Digital Medicine, 2026) and a medical language model study (Cell Reports Medicine, 2026). My contributions include model development and evaluation for ukbFound, and data acquisition, curation, and analysis for medical language model research.
 affiliations:
   - name: "PhD, Tsinghua University & Peking Union Medical College"
     url: ""
@@ -55,12 +49,12 @@ education:
     institution: "Tsinghua University & Peking Union Medical College"
     start: "2023-09-01"
     end: "2026-06-01"
-    summary: "PhD awarded June 26, 2026. Joint training at Tsinghua University and Peking Union Medical College. Advisor: Prof. Erping Long. Research: machine learning for deep phenotyping, disease risk prediction, and patient stratification.\n"
+    summary: "PhD awarded June 26, 2026. Advisor: Prof. Erping Long.\n"
   - degree: "MSc in Biochemistry and Molecular Biology"
     institution: "Xiamen University"
     start: "2014-09-01"
     end: "2017-07-01"
-    summary: "Advisor: Prof. Ning-Shao Xia. Research contribution: bioinformatics support, data processing, and computational analysis.\n"
+    summary: "Advisor: Prof. Ning-Shao Xia.\n"
   - degree: "BEng in Bioengineering"
     institution: "Jimei University"
     start: "2010-09-01"
@@ -70,6 +64,11 @@ education:
     start: "2023-09-01"
     year: "Sept 2023–2026"
 experience:
+  - role: "Part-time Course Tutor"
+    org: "Experimental College, The Open University of China"
+    start: "2023-09-01"
+    end: "2025-08-01"
+    summary: "Course: Special Topics in Artificial Intelligence.\n"
   - role: "Group Leader, Molecular Diagnostics"
     org: "Affiliated Hospital of Putian University"
     start: "2020-08-01"

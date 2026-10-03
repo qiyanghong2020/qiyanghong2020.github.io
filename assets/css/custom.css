@@ -178,8 +178,19 @@
 
 /* Tighten the over-tall vertical padding of the hero. */
 .blox-resume-biography-3 .resume-biography {
-  padding-top: clamp(2.5rem, 6vw, 5rem) !important;
-  padding-bottom: clamp(2rem, 5vw, 4rem) !important;
+  padding-top: clamp(1.5rem, 3vw, 2.5rem) !important;
+  padding-bottom: clamp(1.5rem, 3vw, 2.5rem) !important;
+}
+
+section.blox-resume-biography-3 {
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+.blox-resume-biography-3 .profile-subtitle {
+  color: var(--ra-ink-soft);
+  font-size: var(--ra-fs-affil);
+  line-height: 1.5;
 }
 
 /* ---- 2. Typography ----------------------------------------------- */
@@ -629,9 +640,19 @@ section.blox-collection,
 section.blox-resume-awards,
 section.blox-resume-experience,
 section.blox-resume-skills {
-  padding-top: clamp(2.25rem, 5vw, 3.75rem);
-  padding-bottom: clamp(2.25rem, 5vw, 3.75rem);
+  padding-top: clamp(1.5rem, 3vw, 2.5rem);
+  padding-bottom: clamp(1.5rem, 3vw, 2.5rem);
   border-top: 1px solid var(--ra-rule);
+}
+
+#copublications {
+  padding-top: 1rem;
+  border-top: 0;
+}
+
+.blox-resume-experience ol.relative > li:last-child,
+.blox-resume-biography-3 ol.relative > li:last-child {
+  margin-bottom: 0;
 }
 
 /* ---- 11. Print / PDF: a real CV when saved as PDF --------------- */
