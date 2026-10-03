@@ -18,14 +18,14 @@ author_notes:
   - ""
   - "Corresponding author"
   - "Corresponding author"
-date: "2026-01-01"
+date: "2026-01-21"
 weight: 30
 publication_types: ["article-journal"]
 publication: "*Signal Transduction and Targeted Therapy*"
 hugoblox:
   ids:
     doi: "10.1038/s41392-025-02547-7"
-summary: "Published in 2026. DOI: 10.1038/s41392-025-02547-7. Integrates causal multi-omics, longitudinal lung-function outcomes, and cellular evidence to identify SERPING1 as a COPD modulator."
+summary: "Co-first author. Contributed to multi-omics and statistical analyses investigating chronic obstructive pulmonary disease and longitudinal lung function outcomes."
 featured: true
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/41559025/"
 links:

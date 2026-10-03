@@ -25,6 +25,7 @@ publication_types: ["article-journal"]
 publication: "*Nanomedicine*"
 summary: "Published in 2016."
 featured: false
+draft: true
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/27499052/"
 links:
   - type: custom

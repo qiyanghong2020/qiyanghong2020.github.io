@@ -17,6 +17,7 @@ publication_types: ["article-journal"]
 publication: "*Interdisciplinary Sciences: Computational Life Sciences*"
 summary: "Published in 2018."
 featured: false
+draft: true
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/28560699/"
 links:
   - type: custom

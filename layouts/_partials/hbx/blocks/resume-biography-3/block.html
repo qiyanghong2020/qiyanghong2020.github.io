@@ -164,7 +164,7 @@
       <div class="md:col-span-8">
 
         {{/* Bio Section */}}
-        {{ $bio_content := ($block.content.text | emojify | $page.RenderString) | default $profile.bio }}
+        {{ $bio_content := ($block.content.text | emojify | $page.RenderString) | default ($profile.bio | $page.RenderString (dict "display" "block")) }}
         {{ with $bio_content }}
         <div class="mb-12">
           <div class="flex items-center gap-4 mb-8">

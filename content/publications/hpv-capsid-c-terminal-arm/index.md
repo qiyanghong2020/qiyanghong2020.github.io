@@ -27,6 +27,7 @@ publication_types: ["article-journal"]
 publication: "*Structure*"
 summary: "Published in 2016."
 featured: false
+draft: true
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/27276427/"
 links:
   - type: custom

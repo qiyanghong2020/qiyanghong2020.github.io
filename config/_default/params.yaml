@@ -3,10 +3,10 @@ hugoblox:
   identity:
     name: Qiyang Hong
     type: person
-    tagline: Biomedical Data Science Researcher | Machine Learning & Multi-omics
+    tagline: Biomedical AI Researcher | Machine Learning for Disease Risk & Progression | PhD in Biomedical Engineering
     description: Qiyang Hong develops and evaluates machine learning methods for biomedical data, focusing on disease risk, patient stratification, disease progression, multi-omics analysis, and medical language model evaluation.
   seo:
-    title: Qiyang Hong — Biomedical Data Science Researcher
+    title: Qiyang Hong — Biomedical AI Researcher
   theme:
     mode: light
     pack: marine

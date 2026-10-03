@@ -8,15 +8,21 @@ name:
   alternate: ""
   pronunciation: ""
   pronouns: ""
-role: "Biomedical Data Science Researcher | Machine Learning & Multi-omics"
+role: "Biomedical AI Researcher | Machine Learning for Disease Risk & Progression | PhD in Biomedical Engineering"
 status:
   icon: ""
 bio: |-
-  I develop and evaluate machine learning methods for biomedical data, with a focus on disease risk, patient stratification, and disease progression. My work spans large-scale phenotyping, multi-omics analysis, and the evaluation of medical language models. I am particularly interested in learning useful representations from complex biomedical data and assessing how reliably these models perform on medically relevant tasks.
+  I develop and evaluate machine learning methods for biomedical and clinical data, focusing on disease risk prediction, patient stratification, and disease progression. My work includes large-scale phenotyping, multi-omics analysis, and medical language model evaluation.
 
-  I earned my PhD in Biomedical Engineering from Tsinghua University & Peking Union Medical College in June 2026.
+  As a co-first author of ukbFound (npj Digital Medicine, 2026), I developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The study explored disease risk prediction and multimorbidity, and identified patient subgroups across 289 conditions.
+
+  For our medical language model study (Cell Reports Medicine, 2026), I was a co-first author and contributed to data acquisition, curation, and analysis for evaluating collaborative language models on medical questions and clinical reasoning tasks. I also contributed to multi-omics studies integrating genetic, protein, metabolite, and clinical data to investigate COPD, molecular subtypes, and longitudinal lung function decline.
+
+  I earned my PhD in Biomedical Engineering from Tsinghua University & Peking Union Medical College in June 2026. Previously, I worked as a Bioinformatics Supervisor at Berry Genomics.
+
+  My technical work includes Python, PyTorch, statistical analysis, survival analysis, and reproducible data-analysis workflows.
 affiliations:
-  - name: "Institute of Basic Medical Sciences, Tsinghua University & Peking Union Medical College"
+  - name: "PhD, Tsinghua University & Peking Union Medical College"
     url: ""
 links:
   - icon: "at-symbol"
@@ -49,7 +55,7 @@ education:
     institution: "Tsinghua University & Peking Union Medical College"
     start: "2023-09-01"
     end: "2026-06-01"
-    summary: "Advisor: Prof. Erping Long. Degree awarded June 26, 2026. Research: machine learning for deep phenotyping, disease risk prediction, and patient stratification.\n"
+    summary: "PhD awarded June 26, 2026. Joint training at Tsinghua University and Peking Union Medical College. Advisor: Prof. Erping Long. Research: machine learning for deep phenotyping, disease risk prediction, and patient stratification.\n"
   - degree: "MSc in Biochemistry and Molecular Biology"
     institution: "Xiamen University"
     start: "2014-09-01"
@@ -68,9 +74,9 @@ experience:
     org: "Affiliated Hospital of Putian University"
     start: "2020-08-01"
     end: "2023-07-01"
-    summary: "Prenatal Diagnosis Center. Worked on biomedical data analysis, clinical reporting workflows, and quality control.\n"
+    summary: "Worked in the Prenatal Diagnosis Center, supporting biomedical data analysis, clinical reporting workflows, and quality control.\n"
   - role: "Bioinformatics Supervisor"
-    org: "Berry Genomics Co., Ltd."
+    org: "Berry Genomics"
     start: "2017-07-01"
     end: "2020-08-01"
     summary: "Developed and maintained bioinformatics analysis and reporting workflows for clinical genomic data.\n"

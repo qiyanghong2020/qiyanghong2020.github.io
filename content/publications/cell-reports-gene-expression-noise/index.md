@@ -18,10 +18,10 @@ author_notes:
   - ""
   - "Corresponding author"
   - "Corresponding author"
-date: "2025-01-01"
+date: "2025-12-23"
 publication_types: ["article-journal"]
 publication: "*Cell Reports*"
-summary: "Published in 2025."
+summary: "Co-author. Cell Reports, 44(12), 116612 (2025). Study of the genetic determinants of gene expression noise and their relationship to complex trait variation."
 featured: false
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/41275498/"
 links:

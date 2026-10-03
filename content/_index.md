@@ -40,7 +40,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: First-Author & Co-First-Author Publications
+      title: Selected First-Author & Co-First-Author Publications
       # Show every first/co-first paper at once (no "See all" link)
       count: 0
       filters:
@@ -63,7 +63,7 @@ sections:
 
         **Genetic determinants of gene expression noise and its role in complex trait variation.** *Cell Reports* (2025). [Publication details](/publications/cell-reports-gene-expression-noise/)
 
-        [Full publication archive](/publications/) · [Google Scholar](https://scholar.google.com.hk/citations?user=1PCtyx8AAAAJ&hl=en)
+        [Selected publication details](/publications/) · [Google Scholar](https://scholar.google.com.hk/citations?user=1PCtyx8AAAAJ&hl=en)
     design:
       columns: 1
   - block: markdown
@@ -82,7 +82,7 @@ sections:
       title: 'Selected Research Projects'
       subtitle: ''
       text: |-
-        **ukbFound for patient stratification and disease risk prediction.** Developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The work supported disease risk prediction, multimorbidity analysis, and patient stratification across 289 conditions (*npj Digital Medicine*, 2026).
+        **ukbFound for patient stratification and disease risk prediction.** Developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The study explored disease risk prediction and multimorbidity, and identified patient subgroups across 289 conditions (*npj Digital Medicine*, 2026).
 
         **Evaluation of medical language models.** Contributed to data acquisition, curation, and analysis for evaluating collaborative language models on medical questions and clinical reasoning tasks (*Cell Reports Medicine*, 2026).
 
@@ -112,11 +112,11 @@ sections:
     content:
       title: Technical Skills
       text: |-
-        **Biomedical Data Science & Machine Learning:** Machine learning, multimodal and longitudinal data modeling, model interpretation, and analysis of large-scale biomedical and clinical datasets.
+        **Top skills:** Machine Learning · PyTorch · Python · Multimodal Learning · Bioinformatics.
 
-        **Bioinformatics & Statistical Analysis:** Multi-omics, genomic and transcriptomic data analysis; survival analysis, multiple-testing correction, and resampling methods.
+        **Additional skills:** Deep Learning · Foundation Models · Transformers · Large Language Models (LLM) · Artificial Intelligence (AI).
 
-        **Programming & Data Analysis:** Python, PyTorch, NumPy, pandas, scikit-learn, and reproducible data-analysis workflows.
+        **Data analysis:** Statistical analysis, survival analysis, and reproducible data-analysis workflows.
     design:
       columns: '1'
   - block: markdown
