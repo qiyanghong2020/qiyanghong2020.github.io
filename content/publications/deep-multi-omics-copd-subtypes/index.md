@@ -8,8 +8,8 @@ authors:
   - me
   - "…"
   - "Junling Pang"
-  - "Erping Long"
   - "J. Wang"
+  - "Erping Long"
 author_notes:
   - "Co-first author"
   - "Co-first author"
