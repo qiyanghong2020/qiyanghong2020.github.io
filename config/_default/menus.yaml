@@ -12,7 +12,7 @@ main:
     weight: 20
   - name: Patents
     url: /#patents
-    weight: 25
+    weight: 55
   - name: Research
     url: /#research
     weight: 30
