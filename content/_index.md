@@ -73,7 +73,7 @@ sections:
       title: 'Selected Research Projects'
       subtitle: ''
       text: |-
-        **ukbFound.** Developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The study explored disease risk prediction and multimorbidity, and identified patient subgroups across 289 conditions.
+        **ukbFound.** Developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The study explored disease risk prediction and multimorbidity, and identified distinct patient subgroups in 289 diseases.
 
         **Medical language model evaluation.** Contributed to data acquisition, curation, and analysis for evaluating collaborative language models on medical questions and clinical reasoning tasks.
 
