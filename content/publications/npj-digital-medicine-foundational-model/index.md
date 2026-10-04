@@ -16,7 +16,7 @@ date: "2026-05-14"
 weight: 10
 publication_types: ["article-journal"]
 publication: "*npj Digital Medicine*"
-summary: "Co-first author. Developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The study explored disease risk prediction and multimorbidity, and identified patient subgroups across 289 conditions."
+summary: "Co-first author. Developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The study explored disease risk prediction and multimorbidity, and identified distinct patient subgroups in 289 diseases."
 featured: true
 pubmed_url: "https://pubmed.ncbi.nlm.nih.gov/42135472/"
 hugoblox:
