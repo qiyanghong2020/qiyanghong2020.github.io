@@ -59,10 +59,11 @@ education:
     institution: "Jimei University"
     start: "2010-09-01"
     end: "2014-07-01"
-  - degree: "BS in Computer Science and Technology"
+  - degree: "B.Eng. in Computer Science and Technology"
     institution: "The Open University of China"
     start: "2023-09-01"
-    year: "Sept 2023–2026"
+    end: "2026-01-20"
+    year: "Sept 2023–Jan 2026"
 experience:
   - role: "Part-time Course Tutor"
     org: "Experimental College, The Open University of China"
@@ -72,7 +73,7 @@ experience:
   - role: "Group Leader, Molecular Diagnostics"
     org: "Affiliated Hospital of Putian University"
     start: "2020-08-01"
-    end: "2023-07-01"
+    end: "2023-06-05"
     summary: "Worked in the Prenatal Diagnosis Center, supporting biomedical data analysis, clinical reporting workflows, and quality control.\n"
   - role: "Bioinformatics Supervisor"
     org: "Berry Genomics"
@@ -82,3 +83,4 @@ experience:
 # Technical skills and peer-review invitations are maintained in content/_index.md.
 skills: []
 awards: []
+
