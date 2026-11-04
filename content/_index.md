@@ -41,7 +41,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Selected First-Author & Co-First-Author Publications
+      title: Recent First-Author & Co-First-Author Publications
       # Show every first/co-first paper at once (no "See all" link)
       count: 0
       filters:
@@ -58,7 +58,7 @@ sections:
   - block: markdown
     id: copublications
     content:
-      title: Selected Co-Authored Publications
+      title: Recent Co-Authored Publications
       text: |-
         **Deep multi-omics profiling reveals three molecular subtypes of chronic obstructive pulmonary disease in a unique biomass-exposed Chinese population.** *Med* (2026). [Publication details](/publications/deep-multi-omics-copd-subtypes/)
 
@@ -70,10 +70,10 @@ sections:
   - block: markdown
     id: research
     content:
-      title: 'Selected Research Projects'
+      title: 'Recent Research Projects'
       subtitle: ''
       text: |-
-        **ukbFound.** Developed and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The study explored disease risk prediction and multimorbidity, and identified distinct patient subgroups in 289 diseases.
+        **ukbFound.** Independently developed, built, and evaluated a machine-learning model using deep phenotyping data from more than 500,000 UK Biobank participants. The study explored disease risk prediction and multimorbidity, and identified distinct patient subgroups in 289 diseases (npj Digital Medicine, 2026).
 
         **Medical language model evaluation.** Contributed to data acquisition, curation, and analysis for evaluating collaborative language models on medical questions and clinical reasoning tasks.
 
@@ -93,7 +93,9 @@ sections:
     content:
       title: Technical Skills
       text: |-
-        **Methods:** Machine learning, multimodal modeling, medical language model evaluation, and multi-omics analysis.
+        **Biomedical Data Science:** Analysis of clinical and cohort data, longitudinal health modeling, and evaluation and interpretation of models for disease risk prediction.
+
+        **Bioinformatics & Statistical Analysis:** Multi-omics, genomic and transcriptomic data analysis; survival analysis, multiple-testing correction, and resampling methods.
 
         **Programming & analysis:** Python, PyTorch, statistical and survival analysis, and reproducible workflows.
     design:
@@ -101,11 +103,11 @@ sections:
   - block: markdown
     id: patents
     content:
-      title: Patents
+      title: Patent Application
       text: |-
         **A method, device, medium and product for user phenotype identification based on hospital clinical data** (一种基于医院临床数据的用户表型识别方法、设备、介质及产品)
 
-        Invention patent · China (CNIPA) · Application No. 202610660571.0 · *Filed, under substantive examination* · Inventor 2 of 2
+        Invention patent application · China (CNIPA) · Application No. 202610660571.0 · *Filed May 13, 2026; application accepted May 14, 2026* · Inventor 2 of 2
     design:
       columns: '1'
   - block: markdown
@@ -113,7 +115,7 @@ sections:
     content:
       title: Peer Review Service
       text: |-
-        **Invited reviewer (2026; 5 invitations):** Journal of Medical Internet Research (2); JMIR AI (1); JMIR Medical Education (1); JMIR Cardio (1).
+        **Independent peer reviewer (as of November 4, 2026):** Submitted 14 review reports on 13 manuscripts for seven journals, including the Journal of Medical Internet Research, JMIR AI, and JMIR Medical Informatics. Two further reviews are in progress.
 
         **Co-reviewer (with Prof. Erping Long):** Nature Medicine; Nature Biomedical Engineering; Frontiers in Aging Neuroscience.
     design:

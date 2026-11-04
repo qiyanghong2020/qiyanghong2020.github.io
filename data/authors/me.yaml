@@ -14,9 +14,11 @@ status:
 bio: |-
   I develop and evaluate machine learning methods for biomedical and clinical data, focusing on disease risk prediction, patient stratification, and disease progression. My work includes large-scale phenotyping, multi-omics analysis, and medical language model evaluation.
 
-  I am a co-first author of ukbFound (npj Digital Medicine, 2026) and a medical language model study (Cell Reports Medicine, 2026). My contributions include model development and evaluation for ukbFound, and data acquisition, curation, and analysis for medical language model research.
+  I independently developed, built, and evaluated ukbFound (npj Digital Medicine, 2026), for which I am a co-first author. I also contributed to data acquisition, curation, and analysis for a medical language model study (Cell Reports Medicine, 2026).
+
+  I earned my PhD in Biomedical Engineering from Peking Union Medical College in June 2026. The degree certificate bears the signatures of the presidents of Peking Union Medical College and Tsinghua University.
 affiliations:
-  - name: "PhD, Tsinghua University & Peking Union Medical College"
+  - name: "PhD in Biomedical Engineering, Peking Union Medical College"
     url: ""
 links:
   - icon: "at-symbol"
@@ -46,13 +48,13 @@ links:
 interests: []
 education:
   - degree: "PhD in Biomedical Engineering"
-    institution: "Tsinghua University & Peking Union Medical College"
+    institution: "Peking Union Medical College"
     start: "2023-09-01"
-    end: "2026-06-01"
-    summary: "PhD awarded June 26, 2026. Advisor: Prof. Erping Long.\n"
+    end: "2026-06-18"
+    summary: "PhD awarded June 26, 2026. Advisor: Prof. Erping Long. The degree certificate bears the signatures of the presidents of Peking Union Medical College and Tsinghua University.\n"
   - degree: "MSc in Biochemistry and Molecular Biology"
     institution: "Xiamen University"
-    start: "2014-09-01"
+    start: "2014-09-13"
     end: "2017-06-30"
     summary: "Advisor: Prof. Ning-Shao Xia.\n"
   - degree: "BEng in Bioengineering"
@@ -68,18 +70,18 @@ experience:
   - role: "Part-time Course Tutor"
     org: "Experimental College, The Open University of China"
     start: "2023-09-01"
-    end: "2025-08-01"
-    summary: "Course: Special Topics in Artificial Intelligence.\n"
+    end: "2025-08-31"
+    summary: "Provided online part-time tutoring for the course Special Topics in Artificial Intelligence.\n"
   - role: "Group Leader, Molecular Diagnostics"
     org: "Affiliated Hospital of Putian University"
-    start: "2020-08-01"
+    start: "2020-08-18"
     end: "2023-06-05"
-    summary: "Worked in the Prenatal Diagnosis Center, supporting biomedical data analysis, clinical reporting workflows, and quality control.\n"
+    summary: "Technical staff, not a physician. Led bioinformatics workflows for clinical genetic testing in the Prenatal Diagnosis Center, including sequencing data analysis, quality control, and variant interpretation.\n"
   - role: "Bioinformatics Supervisor"
-    org: "Berry Genomics"
+    org: "Berry Genomics Co., Ltd."
     start: "2017-07-01"
     end: "2020-08-01"
-    summary: "Developed and maintained bioinformatics analysis and reporting workflows for clinical genomic data.\n"
+    summary: "Developed and maintained automated bioinformatics workflows for genetic testing, including sequencing data analysis and variant annotation. Built web-based tools to support genetic data interpretation and reporting.\n"
 # Technical skills and peer-review invitations are maintained in content/_index.md.
 skills: []
 awards: []
